@@ -4,7 +4,6 @@
 
 这是 LapLab 跑团已选定的「电光训练」视觉与内容项目：从完整视觉规范、实体物料和社媒图文，到 Remotion 视频工程、配乐样片、Suno 主题曲及歌词，集中放在一个独立仓库中，便于跑团使用、复盘和持续延展。
 
-维护者：[Jingke He / joannahe](https://github.com/joannahe)
 
 > 本项目源码公开，按 **PolyForm Noncommercial 1.0.0 限非商业用途使用**；不是允许自由商用的 MIT 项目。媒体与品牌素材另行保留权利，见下方许可说明。
 
@@ -108,3 +107,7 @@ npm run package:offline
 - Barlow 字体按随附 SIL OFL 1.1；其他依赖使用各自许可。
 
 本仓库是源码公开的非商业项目。请保留 NOTICE 和 LICENSE，不把公开可下载理解为可任意商用品牌或媒体素材。
+
+## 维护者
+
+维护者：[Jingke He / joannahe](https://github.com/joannahe)
