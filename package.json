@@ -1,0 +1,45 @@
+{
+  "name": "laplab-running-club-visual-identity",
+  "version": "1.0.0",
+  "description": "LapLab 跑团电光训练视觉规范、物料、音乐与 Remotion 视频工程",
+  "license": "PolyForm-Noncommercial-1.0.0",
+  "engines": {
+    "node": "^20.19.0 || ^22.13.0 || >=24"
+  },
+  "private": true,
+  "dependencies": {
+    "@remotion/cli": "4.0.544",
+    "@remotion/fonts": "4.0.544",
+    "@remotion/media": "4.0.544",
+    "react": "19.3.1",
+    "react-dom": "19.3.1",
+    "remotion": "4.0.544"
+  },
+  "devDependencies": {
+    "@remotion/eslint-config-flat": "4.0.544",
+    "@types/react": "19.3.0",
+    "@types/web": "0.0.166",
+    "eslint": "10.12.0",
+    "prettier": "3.8.1",
+    "typescript": "5.9.3"
+  },
+  "scripts": {
+    "dev": "remotion studio",
+    "typecheck": "tsc --noEmit",
+    "assets:check": "node scripts/check-assets.mjs",
+    "render:portrait": "remotion render LapLab-Xiaohongshu-Flash out/LapLab-portrait.mp4",
+    "render:opening": "remotion render Portrait-Opening out/opening.mp4",
+    "render:ending": "remotion render Portrait-Ending out/ending.mp4",
+    "package:offline": "python3 scripts/package_offline.py"
+  },
+  "allowScripts": {
+    "esbuild": false
+  },
+  "author": {
+    "name": "Jingke He"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/joannahe/laplab-running-club-visual-identity.git"
+  }
+}

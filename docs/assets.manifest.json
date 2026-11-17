@@ -1,0 +1,260 @@
+{
+  "说明": "完整性校验；授权范围分别见 LICENSE 与 MEDIA-LICENSE.md。",
+  "assets": [
+    {
+      "path": "public/1029.jpg",
+      "bytes": 8051530,
+      "sha256": "0b549df01a13edf9e008f295788ca78b141e995cfdfd3fa8638dadebdf54db63"
+    },
+    {
+      "path": "public/1057.jpg",
+      "bytes": 1137138,
+      "sha256": "4462dd50bfb6e19ffb137310936e3942d6ed3bf2a6d46c5f5a3961edeb24efdb"
+    },
+    {
+      "path": "public/1058.jpg",
+      "bytes": 2126958,
+      "sha256": "29a69458ef58d36a2daf050d2ee95e539878ee38ac0ce7069d73cc498f62f211"
+    },
+    {
+      "path": "public/1065.jpg",
+      "bytes": 2352205,
+      "sha256": "baf85d3bc693e514aeedccb15b6a782559e94876da3d64c3aa7ba0ea2d4abf29"
+    },
+    {
+      "path": "public/1069.jpg",
+      "bytes": 2290292,
+      "sha256": "62a804c003584b5c4912e7328c0d9ffb2bba0cc333ba8db2f119e56d825b382f"
+    },
+    {
+      "path": "public/1070.jpg",
+      "bytes": 1611724,
+      "sha256": "7e7708a27ba20657bc8040cc2919f53701e050cbf7095250534372d6a86f6a77"
+    },
+    {
+      "path": "public/1071.jpg",
+      "bytes": 2442599,
+      "sha256": "e0573a78b04ff1da0309d7ea28861eea448c180ba076a73eaf26b14c1549b60b"
+    },
+    {
+      "path": "public/43.jpg",
+      "bytes": 372615,
+      "sha256": "796a93dfc72e9cc5f4d58999f9b7970a25ce5ecdd4147b22c0e490f0eb7aad1c"
+    },
+    {
+      "path": "public/788.jpg",
+      "bytes": 3259776,
+      "sha256": "3e8502abccd672b6af1fd77c933626ee07a4607c523fb45d674f2a6accedbb30"
+    },
+    {
+      "path": "public/792.jpg",
+      "bytes": 1390393,
+      "sha256": "780441e5ea85cabc385ce6e7b40a1bdb95299509d0b3f7c7c41726a7bc5bf703"
+    },
+    {
+      "path": "public/793.jpg",
+      "bytes": 1213360,
+      "sha256": "c04d7f21576049ef8c270068771d19ca8ed52c415d4c3c6cd019ebd879482f2e"
+    },
+    {
+      "path": "public/fonts/BarlowCondensed-ExtraBoldItalic.ttf",
+      "bytes": 113004,
+      "sha256": "331783dae9ec0c398f4d32c9fd5a56d4c602caa0c1628c2b9cbfe93f48eb68c9"
+    },
+    {
+      "path": "public/fonts/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
+    },
+    {
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "public/mark.png",
+      "bytes": 380116,
+      "sha256": "a7b69cc985301e1dd4bd211b494bcb742fc42b49d09dfbe682400faf6bf8c4ec"
+    },
+    {
+      "path": "public/music/LapLab 和你一起出发.wav",
+      "bytes": 33237508,
+      "sha256": "82123e3236e9d050390b2ced4ad4b0b2ad329517ea40983d29bc7c20707341a0"
+    },
+    {
+      "path": "public/music/LapLab.wav",
+      "bytes": 28798468,
+      "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
+    },
+    {
+      "path": "public/music/Serious Training, Easy Company (1).wav",
+      "bytes": 43897348,
+      "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
+    },
+    {
+      "path": "public/music/Serious Training, Easy Company.wav",
+      "bytes": 41485828,
+      "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
+    },
+    {
+      "path": "public/word.png",
+      "bytes": 23304,
+      "sha256": "bb8b5b9a6cb012c55c3b31d1ccbad4f439afce776f7d41ae387ad339d59036a1"
+    },
+    {
+      "path": "materials/applications/主页背景.png",
+      "bytes": 1226240,
+      "sha256": "0a40f8b23c5a13bf1ecb1c4f28aaa150cc4e2f829335ada5270c1ae014e877d4"
+    },
+    {
+      "path": "materials/applications/主页预览.png",
+      "bytes": 1620219,
+      "sha256": "cf985c9e297aedd780be66a8fec85c2547f59fefe292e507089b9f2100852226"
+    },
+    {
+      "path": "materials/applications/横幅.png",
+      "bytes": 2415761,
+      "sha256": "48bee5e7e27824bd0e0eb104a31425dc1b07fdb95c075614d86545b3aa5b42d0"
+    },
+    {
+      "path": "materials/applications/纹身贴.png",
+      "bytes": 2099589,
+      "sha256": "ae9403b3198bf8dff8f485ea147b7b13163b0bd0d331814b87d5aaf23ebfe0f7"
+    },
+    {
+      "path": "materials/applications/背心.png",
+      "bytes": 1800511,
+      "sha256": "55c44317ff50fc81612d7a2ba90fb0d8d658e8abaac1b04deefe77a87eb1130f"
+    },
+    {
+      "path": "materials/applications/贴纸.png",
+      "bytes": 2035487,
+      "sha256": "567e0434febeb356a4b4a068af1af81e6654d90c73346f15f264bbcb2280e8e5"
+    },
+    {
+      "path": "materials/applications/跑帽.png",
+      "bytes": 1829081,
+      "sha256": "28efc13a840f1976e7d292baa6a4313671d2fa2a444860c5913195305a1484af"
+    },
+    {
+      "path": "materials/social/README.md",
+      "bytes": 511,
+      "sha256": "637c4df8752212c49a5fce95656b81b59a97af04f0ae2eee41b2374eff7c01ba"
+    },
+    {
+      "path": "materials/social/en/page-1.png",
+      "bytes": 1527799,
+      "sha256": "a200d7edc6a5a2af3df2a3234a6bc7110c1ba28893b8bc233d881110bb149d0e"
+    },
+    {
+      "path": "materials/social/en/page-2.png",
+      "bytes": 1607708,
+      "sha256": "1291d44e50e1f911b2f3a76797cbc8a15e123e87c5f7df5a4966b45f4b630265"
+    },
+    {
+      "path": "materials/social/en/page-3.png",
+      "bytes": 1619574,
+      "sha256": "7df3f325a50df4615223e72c54591d22720e76ca904dbceff615705509ac8397"
+    },
+    {
+      "path": "materials/social/en/page-4.png",
+      "bytes": 1539659,
+      "sha256": "c658fff4106c90a9b20f7c2498ed30f25afc98af3a780e81b9c61cb29e4b0b8d"
+    },
+    {
+      "path": "materials/social/en/page-5.png",
+      "bytes": 1737326,
+      "sha256": "596f99232a237ba92b82e0c330e145cf7408e87a0ff2d76b8c8f3f917ed05ad0"
+    },
+    {
+      "path": "materials/social/en/page-6.png",
+      "bytes": 1527000,
+      "sha256": "a532d729ac9b77124c5391149a121c5184fc67350fafa57e46dd75069a34900c"
+    },
+    {
+      "path": "materials/social/en/page-7.png",
+      "bytes": 1628095,
+      "sha256": "8e8566b9bb3dc0fd8462ad0ef8f9b330d60332061de686a39a8b4fa518d93486"
+    },
+    {
+      "path": "materials/social/zh/page-1.png",
+      "bytes": 1366773,
+      "sha256": "7f08224147df5ce2464fe1c687156d3c34bfa10e569b0452680eeaced814fb29"
+    },
+    {
+      "path": "materials/social/zh/page-2.png",
+      "bytes": 1547948,
+      "sha256": "a456a68dde62d23a1a4baa3eb79d8c7233cce7107420ffd30f2744b4d3ad2840"
+    },
+    {
+      "path": "materials/social/zh/page-3.png",
+      "bytes": 1449653,
+      "sha256": "0990a9130fe4edcf24834fe77bb0d425f9c940ab40d2fc1a9fceeda9589c0e40"
+    },
+    {
+      "path": "materials/social/zh/page-4.png",
+      "bytes": 1502071,
+      "sha256": "e5baa99c1955095bff9b47036c4b0db54828d053def859fda79a5ef85d579d84"
+    },
+    {
+      "path": "materials/social/zh/page-5.png",
+      "bytes": 1738821,
+      "sha256": "55129f4eb340ed05264bef06de5a741a17c93c49dbbc56c2dba2ecae75d5e006"
+    },
+    {
+      "path": "materials/social/zh/page-6.png",
+      "bytes": 1444566,
+      "sha256": "0c56eab099c749b01d3ae3e93918624a62fe10e80dbf5f32d3958bd2f170f129"
+    },
+    {
+      "path": "materials/social/zh/page-7.png",
+      "bytes": 1517591,
+      "sha256": "9b2e048e62f0d64e8e353e498672f43f7097d48259a2c59efa4502ef4289b137"
+    },
+    {
+      "path": "visual/LapLab-电光训练-完整视觉方案.pdf",
+      "bytes": 71878099,
+      "sha256": "6b121ebcb3399a1e6bba0d81df65176ace5cf173f50bd6321d436e8e5eeadc58"
+    },
+    {
+      "path": "visual/方案封面.jpg",
+      "bytes": 39839,
+      "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
+    },
+    {
+      "path": "videos/LapLab-电光训练-双语配乐快闪.mp4",
+      "bytes": 18302950,
+      "sha256": "9c0c867f541b597a0de8187cba636516deddbc6159914e6ebb2b6b7fb0030e84"
+    },
+    {
+      "path": "videos/LapLab-电光训练-竖版快闪片头.mp4",
+      "bytes": 72328,
+      "sha256": "fd10ff4f39740ff9c672d57240c6cf0ab576277733f1a2f7b4b583a1fcf55459"
+    },
+    {
+      "path": "videos/LapLab-电光训练-竖版快闪片尾.mp4",
+      "bytes": 78503,
+      "sha256": "6774a7336d833294454885cec39c7c463152cafe8f8fa40ebe1449f1a10421f3"
+    },
+    {
+      "path": "music/README.md",
+      "bytes": 1584,
+      "sha256": "7fb7285c4589d91887731c00c00d58b320e8c144d1e1b83c2d882676fe07c670"
+    },
+    {
+      "path": "music/lyrics/One-More-Lap-英文歌词.txt",
+      "bytes": 2007,
+      "sha256": "1d844dd2af2fe67819ca44c0b14e151bbe2b9eb030dcf1115c5f20ddb78742ed"
+    },
+    {
+      "path": "music/lyrics/一起刷圈-中文歌词.txt",
+      "bytes": 1891,
+      "sha256": "9e7dbd66737dc459153ef388f922bb80caaf9583d2341278d9156ea69dbd7823"
+    },
+    {
+      "path": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
+      "bytes": 830,
+      "sha256": "e1bae5eca85faff32e1a33867bd34cb93b3d84574a561d2638a302faa81d418c"
+    }
+  ]
+}
