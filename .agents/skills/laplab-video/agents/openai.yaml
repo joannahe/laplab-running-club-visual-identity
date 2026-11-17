@@ -1,0 +1,4 @@
+interface:
+  display_name: "LapLab 短视频"
+  short_description: "使用 Remotion 延展竖版跑团短片，保留双语照片叠字与独立 Logo 卡。"
+  default_prompt: "使用 $laplab-video，根据我的活动主题和项目现有规范完成设计并导出预览。"

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LapLab 社媒图文"
+  short_description: "依据已有大字版式延展活动社媒图文，分别制作中文和英文内容。"
+  default_prompt: "使用 $laplab-social，根据我的活动主题和项目现有规范完成设计并导出预览。"

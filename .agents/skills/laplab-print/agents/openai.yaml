@@ -1,0 +1,4 @@
+interface:
+  display_name: "LapLab 线下物料"
+  short_description: "延展 LapLab 跑团线下物料，保留品牌身份与可编辑设计文件。"
+  default_prompt: "使用 $laplab-print，根据我的活动主题和项目现有规范完成设计并导出预览。"

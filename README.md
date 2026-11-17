@@ -33,6 +33,8 @@
 | `src/` | 可编辑的 Remotion 时间轴、Logo、双语照片叠字与品牌变量 |
 | `docs/` | 中文品牌、视频、素材及验收规范 |
 | `scripts/` | 素材检查、完整离线打包脚本 |
+| `.agents/skills/` | 主题 KV、线下物料、社媒图文、短视频四个 Agent 技能 |
+| `templates/` | 可复制的活动设计简报 |
 
 ## 为什么这样设计
 
@@ -48,6 +50,27 @@ Lap 代表一圈圈训练与积累，Lab 代表实验、探索和创新。两个
 - 直接取 `materials/social/` 中需要的语言版本；不要把中英文版重新堆在同一张图上。
 - 用 `videos/` 成片预览投放效果，或把独立片头片尾拼入自己的视频。
 - 从 `public/music/` 试听歌曲，结合歌词和提示词继续实验。两套歌词是创作原稿，不是四首音频的逐字转写或同步字幕。
+
+## 用 Agent 设计新的活动主题
+
+项目提供四个场景技能，共用电光训练品牌规范：
+
+| 场景 | 技能 |
+|---|---|
+| 新主题主视觉／跨场景方向 | [laplab-kv](.agents/skills/laplab-kv/SKILL.md) |
+| 横幅、衣服背面、跑帽、贴纸 | [laplab-print](.agents/skills/laplab-print/SKILL.md) |
+| 社媒封面、轮播、主页背景 | [laplab-social](.agents/skills/laplab-social/SKILL.md) |
+| Remotion 短视频、片头片尾 | [laplab-video](.agents/skills/laplab-video/SKILL.md) |
+
+让 Agent 打开完整仓库，读取相应技能并描述你的活动。例如：
+
+> 读取 `.agents/skills/laplab-social/SKILL.md`，为「夜色里一起刷圈」做三张中文招募图。信息页用浅底大字，使用现有跑团照片；日期地点先标待确认，不出英文版。
+
+支持技能调用的客户端也可使用 `$laplab-social` 等名称；未发现技能时直接指定上述文件路径即可。无需先安装到系统技能目录。
+
+新主题改变文案、照片和构图，默认保留电光训练配色及组合 Logo。跨场景可先用 KV 技能形成 `theme.md` 再复用；单场景可直接开始。详见 [场景工作流与调用示例](docs/CREATIVE-WORKFLOW.md)、[简报模板](templates/creative-brief.md)。
+
+技能是可复用的设计流程。静态物料已有 PNG 参考，需要 Agent 新建可编辑版式；视频有可运行的 Remotion 工程。新结果默认放 `out/<主题>/`，不会自动覆盖已验收物料，也不会自动发布。
 
 ## 运行和重新生成视频
 

@@ -1,0 +1,4 @@
+interface:
+  display_name: "LapLab 主题主视觉"
+  short_description: "为新的跑团主题建立可复用的主视觉与延展规则，保持电光训练品牌一致。"
+  default_prompt: "使用 $laplab-kv，根据我的活动主题和项目现有规范完成设计并导出预览。"
