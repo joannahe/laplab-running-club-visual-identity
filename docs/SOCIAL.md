@@ -36,6 +36,6 @@
 7. 更新本表和素材清单，让其他 Agent 知道新增内容用途。
 
 ## 源文件说明
-当前社媒资产是最终 PNG，并不是声称可逐字编辑的 PSD/Figma 工程。视频源代码在 src/；社媒新版本可依据这些 PNG 和本规范重新构建可编辑版式。不要把 PNG 中的文字误当作可直接修改的独立图层。
+原有社媒资产是最终 PNG，现新增 `social/` JSON 内容和 `src/social/SocialCard.tsx` 可编辑排版。重建预览见 `materials/social/editable-preview/`，导出指南见 [SOCIAL-EDITING.md](SOCIAL-EDITING.md)。它们延续原风格，但不声称逐像素一致；不提供 PSD/Figma。新主题优先复制内容配置并复用版式，不依赖生图模型。
 
-媒体和设计物料使用范围见 MEDIA-LICENSE.md；代码许可不自动授予套用跑团品牌和物料的权利。
+媒体和设计物料使用范围见 MEDIA-LICENSE.md。

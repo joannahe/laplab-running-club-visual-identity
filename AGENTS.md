@@ -18,6 +18,9 @@
 7. 总体 KV 和视频是中英搭配；中文社媒图文是纯中文版，英文社媒另出。信息多时沿用浅底大字。
 8. 横幅、衣服背面、主页背景等额外身份文案要体现「LapLab 跑团」。Logo-only 视频卡除外。
 
+## 社媒工程
+优先使用 social/ 中的内容 JSON 和 src/social/SocialCard.tsx，操作见 docs/SOCIAL-EDITING.md；不必调用生图服务。运行 npm run typecheck 并用 npm run social:render 实际导出验证。原社媒 PNG 保留为参考，重建模板预览单独存放。
+
 ## 修改工程
 - 品牌变量在 src/brand.ts；当前时间轴、音乐和叠字在 src/PortraitFilm.tsx。
 - 每个可单独编辑的镜头保留独立 JSX 节点；时间使用 useVideoConfig().fps 转换。

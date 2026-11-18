@@ -1,0 +1,100 @@
+{
+  "language": "en",
+  "label": "Running club",
+  "pages": [
+    {
+      "id": "page-1",
+      "layout": "cover",
+      "light": false,
+      "title": ["Meet in Zhangjiang.", "Catch up after the run."],
+      "body": [],
+      "accent": "Serious training. Easy company.",
+      "footer": "LapLab Running Club / Zhangjiang"
+    },
+    {
+      "id": "page-2",
+      "layout": "community",
+      "light": true,
+      "title": ["We are", "LapLab Running Club."],
+      "body": [
+        "Founded in Zhangjiang, Shanghai, in December 2024.",
+        "An independent running community built by local runners.",
+        "Smart training. City exploration. Easy company.",
+        "Every runner has their own rhythm and goals."
+      ],
+      "accent": "Your rhythm. Our laps.",
+      "footer": "LapLab Running Club / Zhangjiang"
+    },
+    {
+      "id": "page-3",
+      "layout": "idea",
+      "light": false,
+      "title": ["Two Ls.", "Moving together."],
+      "body": [
+        "Lap: repeated training and steady progress.",
+        "Lab: experimentation, exploration and innovation.",
+        "Two overlapping Ls form our lightning mark."
+      ],
+      "accent": "Good training. Steady progress.",
+      "footer": "LapLab Running Club / Zhangjiang"
+    },
+    {
+      "id": "page-4",
+      "layout": "schedule",
+      "light": true,
+      "title": ["Your week", "with LapLab."],
+      "body": [],
+      "accent": "Example schedule. Check each session announcement.",
+      "footer": "LapLab Running Club / Zhangjiang",
+      "rows": [
+        ["Mon", "19:00", "10 km easy run\nTCM Park / North gate"],
+        ["Wed", "19:00", "Speed session\nSHUTCM track"],
+        ["Fri", "19:00", "10 km easy run\nTCM Park / North gate"],
+        ["Weekend", "Occasional", "Zhangjiang long run\nCheck announcements"]
+      ]
+    },
+    {
+      "id": "page-5",
+      "layout": "easy",
+      "light": false,
+      "title": ["Run off-duty."],
+      "body": [
+        "Mon + Fri, 19:00",
+        "10 km easy run",
+        "TCM Culture Park / North gate"
+      ],
+      "accent": "Example schedule. Check the latest announcement.",
+      "footer": "LapLab Running Club / Zhangjiang",
+      "photo": "1058.jpg",
+      "metric": "10"
+    },
+    {
+      "id": "page-6",
+      "layout": "speed",
+      "light": true,
+      "title": ["Wednesday", "speed session."],
+      "body": [
+        "Every Wednesday, 19:00",
+        "SHUTCM university track",
+        "Train with purpose. Respect your own rhythm.",
+        "Example only: workouts and groups are announced per session."
+      ],
+      "accent": "",
+      "footer": "LapLab Running Club / Zhangjiang",
+      "metric": "03"
+    },
+    {
+      "id": "page-7",
+      "layout": "long",
+      "light": false,
+      "title": ["Weekend.", "Go a little further."],
+      "body": [
+        "Long runs in and around Zhangjiang.",
+        "Time, meeting point and distance announced for each run.",
+        "A different route. The same steady progress."
+      ],
+      "accent": "Serious training. Easy company.",
+      "footer": "LapLab Running Club / Zhangjiang"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "language": "zh",
+  "label": "LapLab 跑团",
+  "pages": [
+    {
+      "id": "page-1",
+      "layout": "cover",
+      "light": false,
+      "title": ["张江集合，", "跑完再聊。"],
+      "body": [],
+      "accent": "严肃训练，轻松相处。",
+      "footer": "LapLab 跑团 / 张江"
+    },
+    {
+      "id": "page-2",
+      "layout": "community",
+      "light": true,
+      "title": ["我们是", "LapLab 跑团。"],
+      "body": [
+        "2024年12月，成立于上海张江。",
+        "年轻跑者自发组织的独立跑步社群。",
+        "科学训练 · 城市探索 · 轻松社交",
+        "尊重每个人的节奏与目标。"
+      ],
+      "accent": "各有节奏，一起刷圈。",
+      "footer": "LapLab 跑团 / 张江"
+    },
+    {
+      "id": "page-3",
+      "layout": "idea",
+      "light": false,
+      "title": ["两个 L，", "一起向前。"],
+      "body": [
+        "Lap，是一圈圈训练与积累。",
+        "Lab，是实验、探索与创新。",
+        "两个 L 上下交叠，组成我们的闪电。"
+      ],
+      "accent": "重视方法与进步，不唯配速论。",
+      "footer": "LapLab 跑团 / 张江"
+    },
+    {
+      "id": "page-4",
+      "layout": "schedule",
+      "light": true,
+      "title": ["这一周，", "怎么跑？"],
+      "body": [],
+      "accent": "课表为原方案示例，以当次通知为准。",
+      "footer": "LapLab 跑团 / 张江",
+      "rows": [
+        ["周一", "19:00", "10km 轻松跑\n文化园北门"],
+        ["周三", "19:00", "速度课\n上中医大学操场"],
+        ["周五", "19:00", "10km 轻松跑\n文化园北门"],
+        ["周末", "不定期", "张江周边长距离\n安排以通知为准"]
+      ]
+    },
+    {
+      "id": "page-5",
+      "layout": "easy",
+      "light": false,
+      "title": ["下班，下课，", "出来跑。"],
+      "body": ["周一 ＋ 周五 19:00", "10km 轻松跑", "中医药文化园 · 北门集合"],
+      "accent": "示例安排，以当次活动通知为准。",
+      "footer": "LapLab 跑团 / 张江",
+      "photo": "1058.jpg",
+      "metric": "10"
+    },
+    {
+      "id": "page-6",
+      "layout": "speed",
+      "light": true,
+      "title": ["周三，", "速度课。"],
+      "body": [
+        "每周三 19:00",
+        "上中医大学操场",
+        "认真完成这一课，尊重自己的节奏。",
+        "示例安排：具体课表与分组，以当次通知为准。"
+      ],
+      "accent": "",
+      "footer": "LapLab 跑团 / 张江",
+      "metric": "03"
+    },
+    {
+      "id": "page-7",
+      "layout": "long",
+      "light": false,
+      "title": ["周末，", "把圈跑大一点。"],
+      "body": [
+        "不定期安排张江周边长距离。",
+        "时间、集合点和距离，以当次通知为准。",
+        "换条路线，继续积累。"
+      ],
+      "accent": "严肃训练，轻松相处。",
+      "footer": "LapLab 跑团 / 张江"
+    }
+  ]
+}

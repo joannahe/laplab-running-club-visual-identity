@@ -6,4 +6,4 @@
 - 完整延展规范：[社媒规范](../../docs/SOCIAL.md)。
 
 保留 V2 大字效果；信息多的内容用浅底；中文版不额外添加英文解释；英文正文正常大小写。仅使用电光训练配色。
-这些是最终位图素材，不是 PSD/Figma 源文件。使用范围见根目录 MEDIA-LICENSE.md。
+原版为最终位图；editable-preview/ 是代码重建的中英文预览。可编辑源文件在根目录 social/ 和 src/social/，不是 PSD/Figma。操作见 [社媒工程指南](../../docs/SOCIAL-EDITING.md)。使用范围见根目录 MEDIA-LICENSE.md。

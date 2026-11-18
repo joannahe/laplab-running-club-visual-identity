@@ -138,8 +138,8 @@
     },
     {
       "path": "materials/social/README.md",
-      "bytes": 511,
-      "sha256": "637c4df8752212c49a5fce95656b81b59a97af04f0ae2eee41b2374eff7c01ba"
+      "bytes": 669,
+      "sha256": "a87bdaca266d9481c54413e78912cf4746454f41161f6f1a64a1d4199502f436"
     },
     {
       "path": "materials/social/en/page-1.png",
@@ -255,6 +255,76 @@
       "path": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
       "bytes": 830,
       "sha256": "e1bae5eca85faff32e1a33867bd34cb93b3d84574a561d2638a302faa81d418c"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-1.png",
+      "bytes": 243934,
+      "sha256": "1ba3e7ae25303b2097ec471d886980e2daca55e1907d8bced82352c778c297de"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-3.png",
+      "bytes": 178501,
+      "sha256": "487e912e8546efd1cb072649029a92ca9ac26cc0019f599222bcc0d77be70edd"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-2.png",
+      "bytes": 126625,
+      "sha256": "e60f957dc9a7eb9e8847d20090eb1149bce6d2bd6c575f55606bbdd4cf055abc"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-6.png",
+      "bytes": 109112,
+      "sha256": "c84973ad1fe6cf3b03b0e92c0f0f5c1b73269140bbfab1ee616516348a2d5ec9"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-7.png",
+      "bytes": 125803,
+      "sha256": "af3a0ff49b9bb5dc7b3a4ee3f4510a6b4f27ef1c142245cfd339a922a141827e"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-5.png",
+      "bytes": 364815,
+      "sha256": "d9505279a4225f1d096cdfdf940f0d881421a012b7537b5fdb81558926ae3080"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-4.png",
+      "bytes": 133647,
+      "sha256": "6e8797cafc4c47022b5ecce41bd49072c8454d61bd3ee97374a45b79431cbac0"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-1.png",
+      "bytes": 257001,
+      "sha256": "964a5e1d6d8c89e08ad0034cef91e28319b83d62e76a5988a3bf38082c28a39f"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-3.png",
+      "bytes": 186627,
+      "sha256": "720c3147aaa0bd79cc7c1334abd1e58a34645a0a12cd840777eb270f5fe11099"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-2.png",
+      "bytes": 133916,
+      "sha256": "9cbf2ccafbb3aa5612249bfb5e82db50e3e4aff99dbbe6feb3e7497e897581d2"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-6.png",
+      "bytes": 130383,
+      "sha256": "4fb048b38da9b6a42a0f33e74a9a96e24acea5cb7c5407f398d444539e15233a"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-7.png",
+      "bytes": 132206,
+      "sha256": "d0cc81ec3ff94f773fde81f390bd3b97d7dbd0a9b0944bac236935938a179933"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-5.png",
+      "bytes": 373799,
+      "sha256": "49654caa99b06f2d8e9fd3bd25407260740b0bbb08fb9b2f89eb2cd88c8ca85a"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-4.png",
+      "bytes": 135281,
+      "sha256": "95ace2a2104030814ca228a3ef4e20727f451c816546ca6a0dd87a50f7b83d4f"
     }
   ]
 }

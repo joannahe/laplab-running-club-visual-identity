@@ -30,7 +30,8 @@
     "render:portrait": "remotion render LapLab-Xiaohongshu-Flash out/LapLab-portrait.mp4",
     "render:opening": "remotion render Portrait-Opening out/opening.mp4",
     "render:ending": "remotion render Portrait-Ending out/ending.mp4",
-    "package:offline": "python3 scripts/package_offline.py"
+    "package:offline": "python3 scripts/package_offline.py",
+    "social:render": "node scripts/render-social.mjs"
   },
   "allowScripts": {
     "esbuild": false
