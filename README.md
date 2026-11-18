@@ -12,6 +12,8 @@
 
 Logo 文件清单与使用见 [LOGOS.md](docs/LOGOS.md)：2 张原始组件＋4 款透明组合标（PNG/SVG），共 10 个文件。离线「开始阅读.html」提供预览与逐项下载。
 
+独立小红书头像与主页背景见 [主页上传素材](materials/social/profile/README.md)，完整离线包的「开始阅读」可直接预览下载。
+
 ## 先看什么
 
 1. [完整视觉设计方案 · 18 页 PDF](visual/LapLab-电光训练-完整视觉方案.pdf)：整体视觉和应用一览。

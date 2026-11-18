@@ -365,6 +365,16 @@
       "path": "visual/方案封面.jpg",
       "bytes": 39839,
       "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
+    },
+    {
+      "path": "materials/social/profile/background.png",
+      "bytes": 1226240,
+      "sha256": "0a40f8b23c5a13bf1ecb1c4f28aaa150cc4e2f829335ada5270c1ae014e877d4"
+    },
+    {
+      "path": "materials/social/profile/avatar.png",
+      "bytes": 100630,
+      "sha256": "8f375025d3ac364522e1a9bb7292a97110044c74f7be3b3c139ddba52cdb3e64"
     }
   ]
 }

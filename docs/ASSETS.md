@@ -21,3 +21,5 @@
 文件大小与 SHA-256 完整性记录见 assets.manifest.json。照片与音乐的存在检查使用 npm run assets:check。代码许可与素材许可分开，详见 LICENSE、NOTICE、MEDIA-LICENSE.md。
 
 组合 Logo 的 4 款透明 PNG 与 4 款 SVG 位于 `public/logo/`；含原始组件共 10 个文件，详见 [LOGOS.md](LOGOS.md)。社媒工程重建版 14 张预览在 `materials/social/editable-preview/`，原成品保留。
+
+独立头像和主页背景位于 `materials/social/profile/`，头像生成入口 `scripts/avatar-entry.tsx`。背景与 applications/主页背景.png 内容相同。
