@@ -31,7 +31,9 @@
     "render:opening": "remotion render Portrait-Opening out/opening.mp4",
     "render:ending": "remotion render Portrait-Ending out/ending.mp4",
     "package:offline": "python3 scripts/package_offline.py",
-    "social:render": "node scripts/render-social.mjs"
+    "social:render": "node scripts/render-social.mjs",
+    "logos:build": "node scripts/build-logos.mjs",
+    "logos:render": "node scripts/render-logos.mjs"
   },
   "allowScripts": {
     "esbuild": false

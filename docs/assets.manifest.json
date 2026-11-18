@@ -2,106 +2,6 @@
   "说明": "完整性校验；授权范围分别见 LICENSE 与 MEDIA-LICENSE.md。",
   "assets": [
     {
-      "path": "public/1029.jpg",
-      "bytes": 8051530,
-      "sha256": "0b549df01a13edf9e008f295788ca78b141e995cfdfd3fa8638dadebdf54db63"
-    },
-    {
-      "path": "public/1057.jpg",
-      "bytes": 1137138,
-      "sha256": "4462dd50bfb6e19ffb137310936e3942d6ed3bf2a6d46c5f5a3961edeb24efdb"
-    },
-    {
-      "path": "public/1058.jpg",
-      "bytes": 2126958,
-      "sha256": "29a69458ef58d36a2daf050d2ee95e539878ee38ac0ce7069d73cc498f62f211"
-    },
-    {
-      "path": "public/1065.jpg",
-      "bytes": 2352205,
-      "sha256": "baf85d3bc693e514aeedccb15b6a782559e94876da3d64c3aa7ba0ea2d4abf29"
-    },
-    {
-      "path": "public/1069.jpg",
-      "bytes": 2290292,
-      "sha256": "62a804c003584b5c4912e7328c0d9ffb2bba0cc333ba8db2f119e56d825b382f"
-    },
-    {
-      "path": "public/1070.jpg",
-      "bytes": 1611724,
-      "sha256": "7e7708a27ba20657bc8040cc2919f53701e050cbf7095250534372d6a86f6a77"
-    },
-    {
-      "path": "public/1071.jpg",
-      "bytes": 2442599,
-      "sha256": "e0573a78b04ff1da0309d7ea28861eea448c180ba076a73eaf26b14c1549b60b"
-    },
-    {
-      "path": "public/43.jpg",
-      "bytes": 372615,
-      "sha256": "796a93dfc72e9cc5f4d58999f9b7970a25ce5ecdd4147b22c0e490f0eb7aad1c"
-    },
-    {
-      "path": "public/788.jpg",
-      "bytes": 3259776,
-      "sha256": "3e8502abccd672b6af1fd77c933626ee07a4607c523fb45d674f2a6accedbb30"
-    },
-    {
-      "path": "public/792.jpg",
-      "bytes": 1390393,
-      "sha256": "780441e5ea85cabc385ce6e7b40a1bdb95299509d0b3f7c7c41726a7bc5bf703"
-    },
-    {
-      "path": "public/793.jpg",
-      "bytes": 1213360,
-      "sha256": "c04d7f21576049ef8c270068771d19ca8ed52c415d4c3c6cd019ebd879482f2e"
-    },
-    {
-      "path": "public/fonts/BarlowCondensed-ExtraBoldItalic.ttf",
-      "bytes": 113004,
-      "sha256": "331783dae9ec0c398f4d32c9fd5a56d4c602caa0c1628c2b9cbfe93f48eb68c9"
-    },
-    {
-      "path": "public/fonts/BarlowCondensed-Regular.ttf",
-      "bytes": 102480,
-      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
-    },
-    {
-      "path": "public/fonts/OFL.txt",
-      "bytes": 4377,
-      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
-    },
-    {
-      "path": "public/mark.png",
-      "bytes": 380116,
-      "sha256": "a7b69cc985301e1dd4bd211b494bcb742fc42b49d09dfbe682400faf6bf8c4ec"
-    },
-    {
-      "path": "public/music/LapLab 和你一起出发.wav",
-      "bytes": 33237508,
-      "sha256": "82123e3236e9d050390b2ced4ad4b0b2ad329517ea40983d29bc7c20707341a0"
-    },
-    {
-      "path": "public/music/LapLab.wav",
-      "bytes": 28798468,
-      "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
-    },
-    {
-      "path": "public/music/Serious Training, Easy Company (1).wav",
-      "bytes": 43897348,
-      "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
-    },
-    {
-      "path": "public/music/Serious Training, Easy Company.wav",
-      "bytes": 41485828,
-      "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
-    },
-    {
-      "path": "public/word.png",
-      "bytes": 23304,
-      "sha256": "bb8b5b9a6cb012c55c3b31d1ccbad4f439afce776f7d41ae387ad339d59036a1"
-    },
-    {
       "path": "materials/applications/主页背景.png",
       "bytes": 1226240,
       "sha256": "0a40f8b23c5a13bf1ecb1c4f28aaa150cc4e2f829335ada5270c1ae014e877d4"
@@ -140,6 +40,76 @@
       "path": "materials/social/README.md",
       "bytes": 669,
       "sha256": "a87bdaca266d9481c54413e78912cf4746454f41161f6f1a64a1d4199502f436"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-1.png",
+      "bytes": 226128,
+      "sha256": "984fffe41a6d1daa52df3e2d72147226038b49538d12874f08aeea7c9454e458"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-2.png",
+      "bytes": 160119,
+      "sha256": "654c7f56e8ad2ac07ac81997f26d1d87ee9f6376f133d992ef5cf67a538bb7f8"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-3.png",
+      "bytes": 165768,
+      "sha256": "daf9ec8bcf3364efa81edf465592fdec1795c27aed689c766fdaabab67c31ea8"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-4.png",
+      "bytes": 150492,
+      "sha256": "0d843aa009eea357934acc34fd0f0f72c7213c10a5e067ca732a3da0ff9a9c90"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-5.png",
+      "bytes": 451862,
+      "sha256": "5aa2853ac1458a1039008cf35cebe3172d4f0645d951689db05d5122a3e0dcf2"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-6.png",
+      "bytes": 151977,
+      "sha256": "83a0c8cb01344e521b4f2e73836504580d97b660e04ce3769d70ee7654c1614c"
+    },
+    {
+      "path": "materials/social/editable-preview/en/page-7.png",
+      "bytes": 149390,
+      "sha256": "bfcce23d5f2400300d063bf0ec76df0ce792a6694825c9639bfec7e7cecc4462"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-1.png",
+      "bytes": 223817,
+      "sha256": "fafedf0d895d5f5e4b372508f29d8ec21a92cbfd2b44e39ade0717d532907609"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-2.png",
+      "bytes": 209584,
+      "sha256": "a115be410c5bb950fdbf85b4312c902b97933ca76a59cff5e7e4cb9ac7b6500a"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-3.png",
+      "bytes": 186329,
+      "sha256": "7dc2bbab9f5b10de0bcb02b3670350ebc7ffa3358a37a05490cfd4d7b607bd69"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-4.png",
+      "bytes": 175764,
+      "sha256": "a1a26f18d19cc552eb89e1878772d6291de9fd87cbba273b61b482ab4ccb04bb"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-5.png",
+      "bytes": 472376,
+      "sha256": "570bec8bab9c70865dc8f544262e12a6e32b52ab0b76ad20a8c27659311221e1"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-6.png",
+      "bytes": 155435,
+      "sha256": "32388658f4dbcfcf6659ae317058b022d70ed76641adf57f71d3b3d453753f17"
+    },
+    {
+      "path": "materials/social/editable-preview/zh/page-7.png",
+      "bytes": 181245,
+      "sha256": "99471d1db3e02801b6bca191140222b3446314bbd3e3c29490e75da8543be769"
     },
     {
       "path": "materials/social/en/page-1.png",
@@ -212,31 +182,6 @@
       "sha256": "9b2e048e62f0d64e8e353e498672f43f7097d48259a2c59efa4502ef4289b137"
     },
     {
-      "path": "visual/LapLab-电光训练-完整视觉方案.pdf",
-      "bytes": 71878099,
-      "sha256": "6b121ebcb3399a1e6bba0d81df65176ace5cf173f50bd6321d436e8e5eeadc58"
-    },
-    {
-      "path": "visual/方案封面.jpg",
-      "bytes": 39839,
-      "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
-    },
-    {
-      "path": "videos/LapLab-电光训练-双语配乐快闪.mp4",
-      "bytes": 18302950,
-      "sha256": "9c0c867f541b597a0de8187cba636516deddbc6159914e6ebb2b6b7fb0030e84"
-    },
-    {
-      "path": "videos/LapLab-电光训练-竖版快闪片头.mp4",
-      "bytes": 72328,
-      "sha256": "fd10ff4f39740ff9c672d57240c6cf0ab576277733f1a2f7b4b583a1fcf55459"
-    },
-    {
-      "path": "videos/LapLab-电光训练-竖版快闪片尾.mp4",
-      "bytes": 78503,
-      "sha256": "6774a7336d833294454885cec39c7c463152cafe8f8fa40ebe1449f1a10421f3"
-    },
-    {
       "path": "music/README.md",
       "bytes": 1584,
       "sha256": "7fb7285c4589d91887731c00c00d58b320e8c144d1e1b83c2d882676fe07c670"
@@ -257,74 +202,169 @@
       "sha256": "e1bae5eca85faff32e1a33867bd34cb93b3d84574a561d2638a302faa81d418c"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-1.png",
-      "bytes": 243934,
-      "sha256": "1ba3e7ae25303b2097ec471d886980e2daca55e1907d8bced82352c778c297de"
+      "path": "public/1029.jpg",
+      "bytes": 8051530,
+      "sha256": "0b549df01a13edf9e008f295788ca78b141e995cfdfd3fa8638dadebdf54db63"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-3.png",
-      "bytes": 178501,
-      "sha256": "487e912e8546efd1cb072649029a92ca9ac26cc0019f599222bcc0d77be70edd"
+      "path": "public/1057.jpg",
+      "bytes": 1137138,
+      "sha256": "4462dd50bfb6e19ffb137310936e3942d6ed3bf2a6d46c5f5a3961edeb24efdb"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-2.png",
-      "bytes": 126625,
-      "sha256": "e60f957dc9a7eb9e8847d20090eb1149bce6d2bd6c575f55606bbdd4cf055abc"
+      "path": "public/1058.jpg",
+      "bytes": 2126958,
+      "sha256": "29a69458ef58d36a2daf050d2ee95e539878ee38ac0ce7069d73cc498f62f211"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-6.png",
-      "bytes": 109112,
-      "sha256": "c84973ad1fe6cf3b03b0e92c0f0f5c1b73269140bbfab1ee616516348a2d5ec9"
+      "path": "public/1065.jpg",
+      "bytes": 2352205,
+      "sha256": "baf85d3bc693e514aeedccb15b6a782559e94876da3d64c3aa7ba0ea2d4abf29"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-7.png",
-      "bytes": 125803,
-      "sha256": "af3a0ff49b9bb5dc7b3a4ee3f4510a6b4f27ef1c142245cfd339a922a141827e"
+      "path": "public/1069.jpg",
+      "bytes": 2290292,
+      "sha256": "62a804c003584b5c4912e7328c0d9ffb2bba0cc333ba8db2f119e56d825b382f"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-5.png",
-      "bytes": 364815,
-      "sha256": "d9505279a4225f1d096cdfdf940f0d881421a012b7537b5fdb81558926ae3080"
+      "path": "public/1070.jpg",
+      "bytes": 1611724,
+      "sha256": "7e7708a27ba20657bc8040cc2919f53701e050cbf7095250534372d6a86f6a77"
     },
     {
-      "path": "materials/social/editable-preview/zh/page-4.png",
-      "bytes": 133647,
-      "sha256": "6e8797cafc4c47022b5ecce41bd49072c8454d61bd3ee97374a45b79431cbac0"
+      "path": "public/1071.jpg",
+      "bytes": 2442599,
+      "sha256": "e0573a78b04ff1da0309d7ea28861eea448c180ba076a73eaf26b14c1549b60b"
     },
     {
-      "path": "materials/social/editable-preview/en/page-1.png",
-      "bytes": 257001,
-      "sha256": "964a5e1d6d8c89e08ad0034cef91e28319b83d62e76a5988a3bf38082c28a39f"
+      "path": "public/43.jpg",
+      "bytes": 372615,
+      "sha256": "796a93dfc72e9cc5f4d58999f9b7970a25ce5ecdd4147b22c0e490f0eb7aad1c"
     },
     {
-      "path": "materials/social/editable-preview/en/page-3.png",
-      "bytes": 186627,
-      "sha256": "720c3147aaa0bd79cc7c1334abd1e58a34645a0a12cd840777eb270f5fe11099"
+      "path": "public/788.jpg",
+      "bytes": 3259776,
+      "sha256": "3e8502abccd672b6af1fd77c933626ee07a4607c523fb45d674f2a6accedbb30"
     },
     {
-      "path": "materials/social/editable-preview/en/page-2.png",
-      "bytes": 133916,
-      "sha256": "9cbf2ccafbb3aa5612249bfb5e82db50e3e4aff99dbbe6feb3e7497e897581d2"
+      "path": "public/792.jpg",
+      "bytes": 1390393,
+      "sha256": "780441e5ea85cabc385ce6e7b40a1bdb95299509d0b3f7c7c41726a7bc5bf703"
     },
     {
-      "path": "materials/social/editable-preview/en/page-6.png",
-      "bytes": 130383,
-      "sha256": "4fb048b38da9b6a42a0f33e74a9a96e24acea5cb7c5407f398d444539e15233a"
+      "path": "public/793.jpg",
+      "bytes": 1213360,
+      "sha256": "c04d7f21576049ef8c270068771d19ca8ed52c415d4c3c6cd019ebd879482f2e"
     },
     {
-      "path": "materials/social/editable-preview/en/page-7.png",
-      "bytes": 132206,
-      "sha256": "d0cc81ec3ff94f773fde81f390bd3b97d7dbd0a9b0944bac236935938a179933"
+      "path": "public/fonts/BarlowCondensed-ExtraBoldItalic.ttf",
+      "bytes": 113004,
+      "sha256": "331783dae9ec0c398f4d32c9fd5a56d4c602caa0c1628c2b9cbfe93f48eb68c9"
     },
     {
-      "path": "materials/social/editable-preview/en/page-5.png",
-      "bytes": 373799,
-      "sha256": "49654caa99b06f2d8e9fd3bd25407260740b0bbb08fb9b2f89eb2cd88c8ca85a"
+      "path": "public/fonts/BarlowCondensed-Regular.ttf",
+      "bytes": 102480,
+      "sha256": "583cec5da3b84bc4dc7c9c72e2a565c94d34e431518b19d7e250b7830ad5f996"
     },
     {
-      "path": "materials/social/editable-preview/en/page-4.png",
-      "bytes": 135281,
-      "sha256": "95ace2a2104030814ca228a3ef4e20727f451c816546ca6a0dd87a50f7b83d4f"
+      "path": "public/fonts/OFL.txt",
+      "bytes": 4377,
+      "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
+    },
+    {
+      "path": "public/logo/laplab-lime-on-dark.png",
+      "bytes": 163419,
+      "sha256": "1453442a642be1850e587b6ee420777d62bb316defc702353d4cb8ced8b9ac6d"
+    },
+    {
+      "path": "public/logo/laplab-lime-on-dark.svg",
+      "bytes": 538967,
+      "sha256": "2c32c44c118f6d7aafcb11fa7822a2666caaf0721c6e123f8dd4f302cbf64097"
+    },
+    {
+      "path": "public/logo/laplab-lime-on-light.png",
+      "bytes": 161684,
+      "sha256": "a232baeae26178ef2593bcc16a9d09987d03071aadd8379cba7d2b65f6724f26"
+    },
+    {
+      "path": "public/logo/laplab-lime-on-light.svg",
+      "bytes": 538968,
+      "sha256": "51535834ed52d0838bf5b8fba5c1d91ec19f6bf8b80bdbed143f7dbe2ce7ea25"
+    },
+    {
+      "path": "public/logo/laplab-mono-black.png",
+      "bytes": 159601,
+      "sha256": "a8996f2923374bede277bd2da37c740377c1f17908f51e98537ee6f2ddc0ed64"
+    },
+    {
+      "path": "public/logo/laplab-mono-black.svg",
+      "bytes": 538965,
+      "sha256": "0944e43e45df84f235a3ab5ca5ffc8ea37e47b5a9865f844a8fffd5c8959c065"
+    },
+    {
+      "path": "public/logo/laplab-mono-white.png",
+      "bytes": 161293,
+      "sha256": "5f96dbcf7a18793b74b5d26ac14bc7898bf09a0274326fa088c36c16117c085c"
+    },
+    {
+      "path": "public/logo/laplab-mono-white.svg",
+      "bytes": 538965,
+      "sha256": "bbeffa5052965b45ab1db387287620c559080b1f08b538985557ab80ef4fb651"
+    },
+    {
+      "path": "public/mark.png",
+      "bytes": 380116,
+      "sha256": "a7b69cc985301e1dd4bd211b494bcb742fc42b49d09dfbe682400faf6bf8c4ec"
+    },
+    {
+      "path": "public/music/LapLab 和你一起出发.wav",
+      "bytes": 33237508,
+      "sha256": "82123e3236e9d050390b2ced4ad4b0b2ad329517ea40983d29bc7c20707341a0"
+    },
+    {
+      "path": "public/music/LapLab.wav",
+      "bytes": 28798468,
+      "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
+    },
+    {
+      "path": "public/music/Serious Training, Easy Company (1).wav",
+      "bytes": 43897348,
+      "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
+    },
+    {
+      "path": "public/music/Serious Training, Easy Company.wav",
+      "bytes": 41485828,
+      "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
+    },
+    {
+      "path": "public/word.png",
+      "bytes": 23304,
+      "sha256": "bb8b5b9a6cb012c55c3b31d1ccbad4f439afce776f7d41ae387ad339d59036a1"
+    },
+    {
+      "path": "videos/LapLab-电光训练-双语配乐快闪.mp4",
+      "bytes": 18302950,
+      "sha256": "9c0c867f541b597a0de8187cba636516deddbc6159914e6ebb2b6b7fb0030e84"
+    },
+    {
+      "path": "videos/LapLab-电光训练-竖版快闪片头.mp4",
+      "bytes": 72328,
+      "sha256": "fd10ff4f39740ff9c672d57240c6cf0ab576277733f1a2f7b4b583a1fcf55459"
+    },
+    {
+      "path": "videos/LapLab-电光训练-竖版快闪片尾.mp4",
+      "bytes": 78503,
+      "sha256": "6774a7336d833294454885cec39c7c463152cafe8f8fa40ebe1449f1a10421f3"
+    },
+    {
+      "path": "visual/LapLab-电光训练-完整视觉方案.pdf",
+      "bytes": 71878099,
+      "sha256": "6b121ebcb3399a1e6bba0d81df65176ace5cf173f50bd6321d436e8e5eeadc58"
+    },
+    {
+      "path": "visual/方案封面.jpg",
+      "bytes": 39839,
+      "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
     }
   ]
 }

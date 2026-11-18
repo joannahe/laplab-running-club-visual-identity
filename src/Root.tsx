@@ -1,3 +1,4 @@
+import {LogoAsset} from './LogoAsset';
 import { SocialCard, Deck } from "./social/SocialCard";
 import zh from "../social/zh.json";
 import en from "../social/en.json";
@@ -5,6 +6,7 @@ import { Composition } from "remotion";
 import { PortraitFilm, PortraitLogo, PortraitShot } from "./PortraitFilm";
 export const RemotionRoot = () => (
   <>
+    <Composition id="Logo-Asset" component={LogoAsset} defaultProps={{variant:"lime-on-dark"}} width={1000} height={622} durationInFrames={1} fps={30}/>
     <Composition
       id="LapLab-Xiaohongshu-Flash"
       component={PortraitFilm}

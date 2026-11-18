@@ -61,10 +61,17 @@ npm run social:render -- --data social/my-event.json --out out/my-event/social
 
 英文使用项目附带 Barlow 字体。中文沿用系统 Arial Unicode MS / PingFang SC / Noto Sans CJK SC 回退，不捆绑未授权中文字体。因此不同系统可能有字宽与换行差异；要跨机器严格一致，请团队准备同一套获授权中文字体，并在品牌字体设置中统一，不可声称任意电脑像素一致。
 
-组合 Logo 复用 `public/mark.png` 和 `word.png`，按深浅底混合显示，不重绘或用字体替代。照片来自现有素材，未生成替代人物。
+组合 Logo 使用 `public/logo/` 绿色闪电组合标，深底白字、浅底黑字；来源是原始两张 PNG 的遮罩，不重绘或用字体替代。完整清单见 [LOGOS.md](LOGOS.md)。照片来自现有素材，未生成替代人物。
 
 ## 给 Agent 的请求示例
 
 > 使用社媒技能。复制 social/zh.json 为 social/weekend.json，保留封面、介绍、课表三页，改成我提供的周末活动信息。保持大字和浅底信息页，用 npm run social:render 的 --data 参数导出到 out/weekend/social，检查 PNG，并交付 JSON、版式改动和预览。不要调用生图模型。
 
 本次改动不需要渲染视频。改动后运行 `npm run typecheck` 并实际导出所需页面；提交预览素材时同步素材清单。授权仍见 LICENSE 与 MEDIA-LICENSE.md。
+
+## 工程版字号与构图基准
+以 1080×1440 画布计：中文主标题默认 112px，英文 116px；常规正文默认 56px。信息密集或长英文段落可用 48–52px，课表单元格 38–40px、页脚 25px。主标题中文优先 PingFang SC 粗斜体（无该字体时系统回退），正文沿用现有中文回退字体；英文正文保持正常大小写与常规字重。
+
+标题、正文少时优先放大主信息和调整段落间距；不要把所有内容堆在上半页，也不为填满而添加无意义文字。保持约 64px 左右安全边距。参考原稿的大字层级、绿色下划线、斜切色带、训练数字与灰度照片背景。照片裁切须避开人脸与关键动作。
+
+`typography.titleSize`、`typography.bodySize` 可按页调整；仅作用于对应标题与常规正文，课表、数字、时间等有独立字号。`ribbon` 可替换社群页色带短句。所有改动需重新导出检查溢出与手机可读性，不自动缩小文字。中文版不额外添加英文解释。

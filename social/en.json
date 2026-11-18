@@ -6,7 +6,10 @@
       "id": "page-1",
       "layout": "cover",
       "light": false,
-      "title": ["Meet in Zhangjiang.", "Catch up after the run."],
+      "title": [
+        "Meet in Zhangjiang.",
+        "Catch up after the run."
+      ],
       "body": [],
       "accent": "Serious training. Easy company.",
       "footer": "LapLab Running Club / Zhangjiang"
@@ -15,21 +18,28 @@
       "id": "page-2",
       "layout": "community",
       "light": true,
-      "title": ["We are", "LapLab Running Club."],
+      "title": [
+        "We are LapLab."
+      ],
       "body": [
         "Founded in Zhangjiang, Shanghai, in December 2024.",
         "An independent running community built by local runners.",
-        "Smart training. City exploration. Easy company.",
-        "Every runner has their own rhythm and goals."
+        "Runners from local universities and the tech, health and semiconductor industries."
       ],
       "accent": "Your rhythm. Our laps.",
-      "footer": "LapLab Running Club / Zhangjiang"
+      "footer": "LapLab Running Club / Zhangjiang",
+      "typography": {
+        "bodySize": 52
+      }
     },
     {
       "id": "page-3",
       "layout": "idea",
       "light": false,
-      "title": ["Two Ls.", "Moving together."],
+      "title": [
+        "Two Ls.",
+        "Moving together."
+      ],
       "body": [
         "Lap: repeated training and steady progress.",
         "Lab: experimentation, exploration and innovation.",
@@ -42,42 +52,66 @@
       "id": "page-4",
       "layout": "schedule",
       "light": true,
-      "title": ["Your week", "with LapLab."],
+      "title": [
+        "Your week",
+        "with LapLab."
+      ],
       "body": [],
       "accent": "Example schedule. Check each session announcement.",
       "footer": "LapLab Running Club / Zhangjiang",
       "rows": [
-        ["Mon", "19:00", "10 km easy run\nTCM Park / North gate"],
-        ["Wed", "19:00", "Speed session\nSHUTCM track"],
-        ["Fri", "19:00", "10 km easy run\nTCM Park / North gate"],
-        ["Weekend", "Occasional", "Zhangjiang long run\nCheck announcements"]
+        [
+          "Mon",
+          "19:00",
+          "10 km easy run\nTCM Park / North gate"
+        ],
+        [
+          "Wed",
+          "19:00",
+          "Speed session\nSHUTCM track"
+        ],
+        [
+          "Fri",
+          "19:00",
+          "10 km easy run\nTCM Park / North gate"
+        ],
+        [
+          "Weekend",
+          "Occasional",
+          "Zhangjiang long run\nCheck announcements"
+        ]
       ]
     },
     {
       "id": "page-5",
       "layout": "easy",
       "light": false,
-      "title": ["Run off-duty."],
+      "title": [
+        "Run off-duty."
+      ],
       "body": [
-        "Mon + Fri, 19:00",
+        "Mon + Fri\n19:00",
         "10 km easy run",
         "TCM Culture Park / North gate"
       ],
       "accent": "Example schedule. Check the latest announcement.",
       "footer": "LapLab Running Club / Zhangjiang",
-      "photo": "1058.jpg",
+      "photo": "1057.jpg",
       "metric": "10"
     },
     {
       "id": "page-6",
       "layout": "speed",
       "light": true,
-      "title": ["Wednesday", "speed session."],
+      "title": [
+        "Wednesday",
+        "speed session."
+      ],
       "body": [
-        "Every Wednesday, 19:00",
-        "SHUTCM university track",
+        "Every Wednesday\n19:00",
+        "SHUTCM\nuniversity track",
         "Train with purpose. Respect your own rhythm.",
-        "Example only: workouts and groups are announced per session."
+        "Example only. See each session announcement for workouts and groups."
       ],
       "accent": "",
       "footer": "LapLab Running Club / Zhangjiang",
@@ -87,7 +121,10 @@
       "id": "page-7",
       "layout": "long",
       "light": false,
-      "title": ["Weekend.", "Go a little further."],
+      "title": [
+        "Weekend.",
+        "Go a little further."
+      ],
       "body": [
         "Long runs in and around Zhangjiang.",
         "Time, meeting point and distance announced for each run.",

@@ -4,7 +4,7 @@
 
 | 位置 | 内容 | 来源与用途 |
 |---|---|---|
-| public/mark.png、word.png | 原始组合标 | 用户提供，保持原始几何与比例 |
+| public/mark.png、word.png | 两张黑底原始标识组件 | 用户提供，保持原始几何与比例 |
 | public/*.jpg | 11 张跑团照片 | 用户提供，Remotion 直接引用 |
 | public/fonts/ | Barlow 字体与 OFL | Google Fonts 字体及随附授权 |
 | public/music/ | 四首原始 WAV | 用户提供并说明由 Suno 生成 |
@@ -19,3 +19,5 @@
 四首歌曲与时长见 music/README.md。未对每首 Suno 输出做逐字转写，不把创作原稿误标为精确同步字幕。需要歌词字幕时，应按最终选定音轨重新听写和对齐。
 
 文件大小与 SHA-256 完整性记录见 assets.manifest.json。照片与音乐的存在检查使用 npm run assets:check。代码许可与素材许可分开，详见 LICENSE、NOTICE、MEDIA-LICENSE.md。
+
+组合 Logo 的 4 款透明 PNG 与 4 款 SVG 位于 `public/logo/`；含原始组件共 10 个文件，详见 [LOGOS.md](LOGOS.md)。社媒工程重建版 14 张预览在 `materials/social/editable-preview/`，原成品保留。

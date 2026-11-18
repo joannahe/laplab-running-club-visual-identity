@@ -37,3 +37,5 @@
 ## 发布与许可
 代码与技术说明按 PolyForm Noncommercial 1.0.0 提供，不能改成 MIT 或声称可自由商用。媒体、Logo、歌词、视觉设计与成片另见 MEDIA-LICENSE.md。依赖和 OFL 字体遵循各自许可。
 发布身份为 joannahe，提交使用 GitHub 隐私邮箱，不公开个人邮箱。不要引入其他账号的作者信息或提交历史。未经新的明确要求，不新增远程发布或推送操作。
+
+社媒工程优先使用 public/logo/ 的绿色闪电组合标；Logo 清单见 docs/LOGOS.md。字号与原稿构图复刻基准见 docs/SOCIAL.md。私人测试与活动文案不得随公开项目或完整公共离线包发布。

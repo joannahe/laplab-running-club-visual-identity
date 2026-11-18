@@ -16,6 +16,8 @@
     "resolveJsonModule": true
   },
   "exclude": [
-    "remotion.config.ts"
+    "remotion.config.ts",
+    "out",
+    "node_modules"
   ]
 }

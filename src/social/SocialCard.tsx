@@ -34,6 +34,8 @@ export type Card = {
   rows?: string[][];
   photo?: string;
   metric?: string;
+  ribbon?: string;
+  typography?: {titleSize?:number;bodySize?:number};
 };
 export type Deck = { language: "zh" | "en"; label: string; pages: Card[] };
 // 固定画布，文字是独立 DOM；超出文本区域就停止导出，不静默裁切。
@@ -69,283 +71,64 @@ const Copy: React.FC<{
     };
   }, [handle]);
   return (
-    <div ref={ref} style={{ overflow: "hidden", ...style }}>
+    <div ref={ref} style={{ overflow: "hidden", flexShrink: 0, whiteSpace: "pre-line", ...style }}>
       {children}
     </div>
   );
 };
-// 仅裁去原图外侧黑色留白；图形与字标保持原始比例，组合一起缩放。
-const LogoAsset: React.FC<{file:string; box:[number,number,number,number]; source:[number,number]; width:number; dark:boolean}> = ({file,box,source,width,dark}) => {
- const scale=width/box[2];
- return <div style={{position:'relative',width,height:box[3]*scale,overflow:'hidden'}}><Img src={staticFile(file)} style={{position:'absolute',width:source[0]*scale,height:source[1]*scale,left:-box[0]*scale,top:-box[1]*scale,mixBlendMode:dark?'multiply':'screen',filter:dark?'invert(1)':'none'}}/></div>;
-};
-const Lockup: React.FC<{width:number;dark?:boolean}> = ({width,dark=false}) => <div style={{width,display:'flex',alignItems:'center',gap:width*.05}}>
- <LogoAsset file="mark.png" box={[380,213,494,829]} source={[1254,1254]} width={width*.37} dark={dark}/>
- <LogoAsset file="word.png" box={[26,129,366,340]} source={[400,600]} width={width*.58} dark={dark}/>
-</div>;
-export const SocialCard: React.FC<{ deck: Deck; page: number }> = ({
-  deck,
-  page,
-}) => {
-  const p = deck.pages[page];
-  if (!p) throw new Error("社媒页码不存在");
-  const en = deck.language === "en";
-  const fg = p.light ? BRAND.charcoal : BRAND.chalk;
-  const headline: React.CSSProperties = {
-    fontFamily: en ? "Barlow Display" : BRAND.chineseFont,
-    fontWeight: en ? 800 : 700,
-    fontStyle: en ? "italic" : "normal",
-    fontSize: en ? 108 : 88,
-    lineHeight: 1.05,
-    letterSpacing: -2,
-  };
-  const paragraph: React.CSSProperties = {
-    fontSize: en ? 43 : 35,
-    lineHeight: 1.35,
-  };
-  const title = (
-    <Copy style={{ ...headline, height: 250 }}>
-      {p.title.map((t, i) => (
-        <div key={i}>{t}</div>
-      ))}
-    </Copy>
-  );
-  const body = (
-    <Copy style={{ ...paragraph, maxHeight: 450 }}>
-      {p.body.map((t, i) => (
-        <div key={i} style={{ marginBottom: 24 }}>
-          {t}
-        </div>
-      ))}
-    </Copy>
-  );
-  return (
-    <AbsoluteFill
-      style={{
-        background: p.light ? BRAND.chalk : BRAND.charcoal,
-        color: fg,
-        fontFamily: en ? BRAND.englishFont : BRAND.chineseFont,
-        padding: 64,
-      }}
-    >
-      <div
-        style={{
-          height: 138,
-          display: "flex",
-          alignItems: "flex-start",
-          gap: 24,
-        }}
-      >
-        <Lockup width={174} dark={p.light} />
-        <div
-          style={{
-            flex: 1,
-            height: 2,
-            background: fg,
-            opacity: 0.4,
-            marginTop: 45,
-          }}
-        />
-        <div style={{ fontSize: 22, marginTop: 30 }}>{deck.label}</div>
-      </div>
-      {p.layout === "cover" ? (
-        <>
-          <div style={{ alignSelf: "center", marginTop: 35, marginBottom: 60 }}>
-            <Lockup width={830} />
-          </div>
-          {title}
-          <Copy style={{ fontSize: en ? 42 : 42, height: 130, marginTop: 22 }}>
-            {p.accent}
-          </Copy>
-        </>
-      ) : (
-        <>
-          {title}
-          <div
-            style={{
-              height: 9,
-              background: BRAND.lime,
-              width: 240,
-              marginTop: 12,
-              marginBottom: 40,
-            }}
-          />
-          {p.layout === "schedule" ? (
-            <div>
-              {p.rows?.map((row, i) => (
-                <div
-                  key={i}
-                  style={{
-                    display: "grid",
-                    gridTemplateColumns: "140px 160px 1fr",
-                    gap: 20,
-                    borderBottom: "1px solid " + BRAND.grey,
-                    padding: "27px 0",
-                  }}
-                >
-                  {row.map((cell, j) => (
-                    <Copy
-                      key={j}
-                      style={{
-                        fontSize: en ? 34 : 30,
-                        lineHeight: 1.25,
-                        whiteSpace: "pre-line",
-                        height: 91,
-                        background: j === 0 ? BRAND.lime : undefined,
-                        padding: j === 0 ? 10 : 0,
-                      }}
-                    >
-                      {cell}
-                    </Copy>
-                  ))}
-                </div>
-              ))}
-              <Copy style={{ ...paragraph, height: 125, marginTop: 38 }}>
-                {p.accent}
-              </Copy>
-            </div>
-          ) : p.layout === "idea" ? (
-            <>
-              {body}
-              <div style={{ alignSelf: "center", marginTop: 35 }}>
-                <Lockup width={560} />
-              </div>
-              <Copy
-                style={{ fontSize: en ? 43 : 38, height: 120, marginTop: 40 }}
-              >
-                {p.accent}
-              </Copy>
-            </>
-          ) : p.layout === "easy" ? (
-            <>
-              <div style={{ display: "flex", gap: 36 }}>
-                <div style={{ width: 520 }}>
-                  {body}
-                  <Copy
-                    style={{
-                      ...headline,
-                      fontSize: 170,
-                      height: 235,
-                      color: BRAND.lime,
-                      marginTop: 40,
-                    }}
-                  >
-                    {p.metric ?? "10"}
-                  </Copy>
-                </div>
-                {p.photo ? (
-                  <Img
-                    src={staticFile(p.photo)}
-                    style={{
-                      width: 360,
-                      height: 570,
-                      objectFit: "contain",
-                      objectPosition: "center",
-                    }}
-                  />
-                ) : null}
-              </div>
-              <Copy style={{ ...paragraph, height: 110, marginTop: 30 }}>
-                {p.accent}
-              </Copy>
-            </>
-          ) : p.layout === "speed" ? (
-            <>
-              <div
-                style={{
-                  display: "flex",
-                  gap: 55,
-                  alignItems: "center",
-                  marginBottom: 35,
-                }}
-              >
-                <div
-                  style={{
-                    fontFamily: "Barlow Display",
-                    fontSize: 260,
-                    fontStyle: "italic",
-                    color: BRAND.lime,
-                    lineHeight: 1,
-                  }}
-                >
-                  {p.metric ?? "03"}
-                </div>
-                <Copy style={{ ...paragraph, height: 220, flex: 1 }}>
-                  {p.body.slice(0, 2).map((t, i) => (
-                    <div key={i} style={{ marginBottom: 24 }}>
-                      {t}
-                    </div>
-                  ))}
-                </Copy>
-              </div>
-              <div
-                style={{ height: 2, background: BRAND.grey, marginBottom: 32 }}
-              />
-              <Copy style={{ ...paragraph, height: 230 }}>
-                {p.body.slice(2).map((t, i) => (
-                  <div key={i} style={{ marginBottom: 24 }}>
-                    {t}
-                  </div>
-                ))}
-              </Copy>
-            </>
-          ) : p.layout === "long" ? (
-            <>
-              {body}
-              <svg
-                width="940"
-                height="300"
-                viewBox="0 0 940 300"
-                style={{ marginTop: 15 }}
-                aria-label="抽象跑道图形，并非真实路线"
-              >
-                <path
-                  d="M0 220 C130 110 190 110 260 160 S400 220 430 120 S580 0 660 60 S600 170 740 185 S800 290 940 245"
-                  fill="none"
-                  stroke={BRAND.lime}
-                  strokeWidth="12"
-                />
-              </svg>
-              <Copy style={{ ...paragraph, height: 100, marginTop: 24 }}>
-                {p.accent}
-              </Copy>
-            </>
-          ) : (
-            <>
-              {body}
-              <div
-                style={{
-                  background: BRAND.lime,
-                  color: BRAND.charcoal,
-                  padding: 22,
-                  marginTop: 24,
-                }}
-              >
-                <Copy style={{ ...paragraph, height: 110 }}>{p.accent}</Copy>
-              </div>
-            </>
-          )}
-        </>
-      )}
-      <div
-        style={{
-          position: "absolute",
-          bottom: 48,
-          left: 64,
-          right: 64,
-          borderTop: "1px solid " + BRAND.grey,
-          paddingTop: 20,
-          display: "flex",
-          justifyContent: "space-between",
-          fontSize: 22,
-        }}
-      >
-        <span>{p.footer}</span>
-        <span>
-          {String(page + 1).padStart(2, "0")} /{" "}
-          {String(deck.pages.length).padStart(2, "0")}
-        </span>
-      </div>
-    </AbsoluteFill>
-  );
+// 社媒优先使用绿色闪电；浅底黑字、深底白字，始终作为同一组合显示。
+const Lockup: React.FC<{width:number;dark?:boolean}> = ({width,dark=false}) =>
+ <Img src={staticFile(`logo/laplab-lime-on-${dark?'light':'dark'}.svg`)} style={{width,height:width*.622,objectFit:'contain'}}/>;
+const Icon:React.FC<{kind:'calendar'|'pin';color:string}>=({kind,color})=><svg width="54" height="60" viewBox="0 0 48 54" fill="none" stroke={color} strokeWidth="3.5">{kind==='calendar'?<><rect x="5" y="10" width="38" height="37" rx="4"/><path d="M5 22h38 M15 4v13 M33 4v13 M13 30h5 M26 30h5 M13 39h5 M26 39h5"/></>:<><path d="M24 49S7 31 7 20a17 17 0 0 1 34 0c0 11-17 29-17 29Z"/><circle cx="24" cy="20" r="6"/></>}</svg>;
+export const SocialCard:React.FC<{deck:Deck;page:number}>=({deck,page})=>{
+ const p=deck.pages[page];if(!p)throw new Error('社媒页码不存在');
+ const en=deck.language==='en';const fg=p.light?BRAND.charcoal:BRAND.chalk;
+ const head:React.CSSProperties={fontFamily:en?'Barlow Display':`"PingFang SC", ${BRAND.chineseFont}`,fontSize:p.typography?.titleSize??(en?116:112),fontStyle:'italic',fontWeight:en?800:900,lineHeight:1.08,letterSpacing:-2};
+ const bodySize=p.typography?.bodySize??56;
+ const para:React.CSSProperties={fontSize:bodySize,fontWeight:en?400:600,lineHeight:1.3};
+ const block=(top:number,height:number,extra:React.CSSProperties={}):React.CSSProperties=>({position:'absolute',left:64,right:64,top,height,...extra});
+ const headline=(top=208)=> <Copy style={{...block(top,p.title.length>1?260:155),...head}}>{p.title.map((t,i)=><div key={i}>{t}</div>)}</Copy>;
+ const paragraphs=(top:number,height:number,extra:React.CSSProperties={})=><Copy style={{...block(top,height),...para,...extra}}>{p.body.map((t,i)=><div key={i} style={{marginBottom:28}}>{t}</div>)}</Copy>;
+ const stripe=(top:number,width: number|string='100%')=><div style={{position:'absolute',left:64,right:64,top,height:16}}><div style={{height:'100%',width,background:BRAND.lime,transform:'skewX(-18deg)'}}/></div>;
+ const divider=(top:number)=><div style={{position:'absolute',left:64,right:64,top,height:2,background:BRAND.grey}}/>;
+ return <AbsoluteFill style={{background:p.light?BRAND.chalk:BRAND.charcoal,color:fg,fontFamily:en?BRAND.englishFont:BRAND.chineseFont}}>
+  {p.layout==='easy'&&p.photo?<Img src={staticFile(p.photo)} style={{position:'absolute',right:-35,bottom:100,width:580,height:780,objectFit:'cover',objectPosition:'65% 70%',filter:'grayscale(1) brightness(.62)',maskImage:'linear-gradient(to right, transparent, black 45%), linear-gradient(to bottom, transparent, black 30%)',maskComposite:'intersect'}}/>:null}
+  <div style={{position:'absolute',left:64,right:64,top:50,display:'flex',alignItems:'center',gap:30}}><Lockup width={200} dark={p.light}/><div style={{height:2,flex:1,background:fg,opacity:.7}}/><div style={{fontSize:30,fontWeight:en?400:600,fontStyle:'italic'}}>{deck.label}</div></div>
+  {p.layout==='cover'?<>
+   <div style={{position:'absolute',left:90,top:240}}><Lockup width={900} dark={p.light}/></div>
+   {headline(895)}<Copy style={{...block(1170,130),...para}}>{p.accent}</Copy>
+  </>:p.layout==='community'?<>
+   {headline()} {stripe(p.title.length>1?478:370)}
+   {paragraphs(p.title.length>1?530:435,p.title.length>1?400:495)}
+   <div style={{...block(978,125),background:BRAND.lime,transform:'skewX(-15deg)'}}/>
+   <Copy style={{...block(995,95,{left:90,right:90}),fontSize:en?46:44,fontStyle:'italic',fontWeight:en?400:700,color:BRAND.charcoal}}>{p.ribbon??(en?'Smart training · City exploration · Easy company':'科学训练 · 城市探索 · 轻松社交')}</Copy>
+   <Copy style={{...block(1150,165),...head,fontSize:en?80:76}}>{p.accent}</Copy>
+  </>:p.layout==='idea'?<>
+   {headline()} {paragraphs(490,350,{fontSize:en?46:48})}
+   <div style={{position:'absolute',left:310,top:850}}><Lockup width={460}/></div>
+   {divider(1150)}<Copy style={{...block(1180,130),...para}}>{p.accent}</Copy>
+  </>:p.layout==='schedule'?<>
+   {headline()} {stripe(p.title.length>1?470:365)}
+   <div style={{...block(p.title.length>1?515:420,680)}}>{p.rows?.map((row,i)=><div key={i} style={{display:'grid',gridTemplateColumns:'155px 165px 1fr',gap:22,padding:'25px 0',borderBottom:'2px solid '+BRAND.grey}}>{row.map((cell,j)=><Copy key={j} style={{fontSize:en?40:38,fontWeight:en?400:600,lineHeight:1.2,height:110,padding:j===0?'10px 8px':0,background:j===0?BRAND.lime:undefined,whiteSpace:'pre-line'}}>{cell}</Copy>)}</div>)}</div>
+   <Copy style={{...block(1210,115),fontSize:en?44:42,lineHeight:1.25}}>{p.accent}</Copy>
+  </>:p.layout==='easy'?<>
+   {headline()} {stripe(475)}
+   <Copy style={{...block(520,250,{right:240}),...head,fontSize:en?108:96,whiteSpace:'pre-line'}}>{p.body[0]}</Copy>
+   <Copy style={{...block(770,130,{right:190}),...head,fontSize:en?98:88}}>{p.body[1]}</Copy>
+   <div style={{position:'absolute',left:64,top:925}}><Icon kind="pin" color={BRAND.lime}/></div>
+   <Copy style={{...block(925,150,{left:135,right:150}),fontSize:en?54:50,lineHeight:1.2,fontWeight:en?400:600}}>{p.body[2]}</Copy>
+   <Copy style={{...block(1090,105,{right:100}),fontSize:en?44:40,lineHeight:1.2}}>{p.accent}</Copy>
+   <div style={{position:'absolute',left:55,top:1170,fontFamily:'Barlow Display',fontStyle:'italic',fontSize:220,lineHeight:.7,color:BRAND.lime}}>{p.metric??'10'}</div>
+  </>:p.layout==='speed'?<>
+   {headline()}<div style={{position:'absolute',left:40,top:490,fontFamily:'Barlow Display',fontStyle:'italic',fontSize:460,lineHeight:1,color:BRAND.lime}}>{p.metric??'03'}</div>
+   <div style={{position:'absolute',left:505,top:520,height:440,width:2,background:BRAND.grey}}/>
+   {[0,1].map((i)=><React.Fragment key={i}><div style={{position:'absolute',left:540,top:530+i*230}}><Icon kind={i===0?'calendar':'pin'} color={fg}/></div><Copy style={{position:'absolute',left:610,right:58,top:530+i*230,height:205,fontSize:en?58:56,fontWeight:en?400:700,lineHeight:1.18,whiteSpace:'pre-line'}}>{p.body[i]}</Copy></React.Fragment>)}
+   {divider(1030)}<Copy style={{...block(1070,240),fontSize:48,lineHeight:1.25,fontWeight:en?400:600}}>{p.body.slice(2).map((t,i)=><div key={i} style={{marginBottom:24}}>{t}</div>)}</Copy>
+  </>:<>
+   {headline()} {stripe(478,250)}{paragraphs(530,350,{fontSize:en?50:52})}
+   <svg width="1080" height="300" viewBox="0 0 1080 410" style={{position:'absolute',left:0,top:910}} aria-label="抽象跑道线，不是真实路线"><path d="M-20 260 C130 130 210 160 300 210 S440 280 490 140 S710 -20 790 55 S700 205 850 215 S930 365 1110 350" fill="none" stroke={BRAND.lime} strokeWidth="16"/></svg>
+   <Copy style={{...block(1240,85),...para,fontStyle:'italic'}}>{p.accent}</Copy>
+  </>}
+  <div style={{position:'absolute',left:64,right:64,bottom:35,borderTop:'2px solid '+BRAND.grey,paddingTop:18,display:'flex',alignItems:'center',gap:30,fontSize:25,fontWeight:en?400:600,fontStyle:'italic'}}><span>{p.footer}</span><div style={{height:2,background:BRAND.grey,flex:1}}/><span>{String(page+1).padStart(2,'0')} / {String(deck.pages.length).padStart(2,'0')}</span></div>
+ </AbsoluteFill>;
 };
