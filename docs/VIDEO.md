@@ -49,3 +49,8 @@ npx remotion render LapLab-Xiaohongshu-Flash out/clip.mp4 --props='{"musicStartS
 ## 输出检查
 `npm run assets:check` → `npm run typecheck` → `npm run render:portrait`。
 逐处检查 Logo 完整性、中文字体、英文换行、色彩、透明底、眼鼻口无遮挡；检查开始/结束帧和四个文字镜头。音频应可解码、非静音，无数字削波。检查音视频时长一致、尾部淡出、手机尺寸可读。
+
+## 新版独立片头片尾
+- `videos/LapLab-绿色闪电-独立片头.mp4`：1.2 秒，绿色闪电与 LAP/LAB 同步出现。
+- `videos/LapLab-跑团标识与口号-独立片尾.mp4`：3 秒，帽背式 LAP/LAB＋跑团＋Running Club，下方中英文口号，以电光绿短线分隔。此版为已确认的例外：不含闪电，允许标识与口号同屏，标识适当缩小。
+两段均为 1080×1920、30fps、无声，便于在完整片统一配乐。原有视频保留。源码为 `src/BrandBumpers.tsx`，合成 ID 为 `Green-Opening`、`Club-Ending`，用 `npx remotion render <合成ID> out/<文件名>.mp4` 重建。

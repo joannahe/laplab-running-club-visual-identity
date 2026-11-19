@@ -40,3 +40,4 @@
 发布身份为 joannahe，提交使用 GitHub 隐私邮箱，不公开个人邮箱。不要引入其他账号的作者信息或提交历史。未经新的明确要求，不新增远程发布或推送操作。
 
 社媒工程优先使用 public/logo/ 的绿色闪电组合标；Logo 清单见 docs/LOGOS.md。字号与原稿构图复刻基准见 docs/SOCIAL.md。私人测试与活动文案不得随公开项目或完整公共离线包发布。
+新版帽背式标识及片尾已确认：LAP/LAB＋跑团＋Running Club 不含闪电，片尾允许下方同时出现中英文口号。它是上方通用标识/口号规则的特定例外；使用 src/BrandBumpers.tsx，详见 docs/VIDEO.md。

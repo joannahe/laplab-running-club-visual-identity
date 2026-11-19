@@ -147,6 +147,16 @@
       "sha256": "8e8566b9bb3dc0fd8462ad0ef8f9b330d60332061de686a39a8b4fa518d93486"
     },
     {
+      "path": "materials/social/profile/avatar.png",
+      "bytes": 100630,
+      "sha256": "8f375025d3ac364522e1a9bb7292a97110044c74f7be3b3c139ddba52cdb3e64"
+    },
+    {
+      "path": "materials/social/profile/background.png",
+      "bytes": 1226240,
+      "sha256": "0a40f8b23c5a13bf1ecb1c4f28aaa150cc4e2f829335ada5270c1ae014e877d4"
+    },
+    {
       "path": "materials/social/zh/page-1.png",
       "bytes": 1366773,
       "sha256": "7f08224147df5ce2464fe1c687156d3c34bfa10e569b0452680eeaced814fb29"
@@ -272,6 +282,16 @@
       "sha256": "186d750eb496a4c17a76385f82be6aea2ac1cf2de074a811d63786cf374ea73f"
     },
     {
+      "path": "public/logo/laplab-cap-running-club.png",
+      "bytes": 103781,
+      "sha256": "cc3d50fe0e194fd18386865b995fa5944faf5ff467d9aea87eb1f1d0e1835309"
+    },
+    {
+      "path": "public/logo/laplab-cap-running-club.svg",
+      "bytes": 31795,
+      "sha256": "29d817a39abd0b4aadde1c0a1fcf78f13c13149fb43c40021fcf33f8162b5fea"
+    },
+    {
       "path": "public/logo/laplab-lime-on-dark.png",
       "bytes": 163419,
       "sha256": "1453442a642be1850e587b6ee420777d62bb316defc702353d4cb8ced8b9ac6d"
@@ -357,6 +377,16 @@
       "sha256": "6774a7336d833294454885cec39c7c463152cafe8f8fa40ebe1449f1a10421f3"
     },
     {
+      "path": "videos/LapLab-绿色闪电-独立片头.mp4",
+      "bytes": 100209,
+      "sha256": "6955585de2e7620f68b046b4db7e22445afcc24462eeafafc815856b2d130041"
+    },
+    {
+      "path": "videos/LapLab-跑团标识与口号-独立片尾.mp4",
+      "bytes": 96055,
+      "sha256": "1eb75098cba5d6a040cef11486e00168aaafaf2ba4e1eefe2b7777803c16b951"
+    },
+    {
       "path": "visual/LapLab-电光训练-完整视觉方案.pdf",
       "bytes": 71878099,
       "sha256": "6b121ebcb3399a1e6bba0d81df65176ace5cf173f50bd6321d436e8e5eeadc58"
@@ -365,16 +395,6 @@
       "path": "visual/方案封面.jpg",
       "bytes": 39839,
       "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
-    },
-    {
-      "path": "materials/social/profile/background.png",
-      "bytes": 1226240,
-      "sha256": "0a40f8b23c5a13bf1ecb1c4f28aaa150cc4e2f829335ada5270c1ae014e877d4"
-    },
-    {
-      "path": "materials/social/profile/avatar.png",
-      "bytes": 100630,
-      "sha256": "8f375025d3ac364522e1a9bb7292a97110044c74f7be3b3c139ddba52cdb3e64"
     }
   ]
 }

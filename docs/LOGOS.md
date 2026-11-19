@@ -1,6 +1,6 @@
 # Logo 文件清单与使用
 
-仓库与完整离线包共包含 **10 个 Logo 文件**：2 张原始组件 PNG，以及 4 款组合标各自的透明 PNG 和 SVG。
+仓库与完整离线包共包含 **12 个 Logo 文件**：2 张原始组件 PNG、4 款组合标各自的透明 PNG 和 SVG，以及帽背版跑团标识 PNG/SVG。
 
 ## 原始组件（保留不覆盖）
 - `public/mark.png`：1254×1254，黑底白色双 L 闪电。
@@ -28,3 +28,6 @@ npm run logos:render
 前者更新 public/logo/ 的 SVG；后者输出透明 PNG 到 out/logos/。验收后再复制 PNG 到 public/logo/。浏览器参数支持 --browser-executable。照片与视频原有白色标识保持原设计；本次统一的是社媒工程默认绿色闪电。
 
 授权见 MEDIA-LICENSE.md。离线预览、逐项下载入口见根目录「开始阅读.html」。
+
+## 帽背版跑团标识（新增）
+`public/logo/laplab-cap-running-club.png` 与同名 `.svg`：800×1000 透明底，竖排 LAP/LAB、跑团、Running Club。复用原始字标，不含闪电；适用于帽背与已确认的新片尾。SVG 内嵌位图字标和可编辑文字，不是纯路径矢量；字体差异可能影响显示，直接排版优先用 PNG。加入此款后共 12 个 Logo 文件。
