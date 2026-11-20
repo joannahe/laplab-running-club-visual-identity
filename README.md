@@ -36,7 +36,7 @@ LapLab 是 2024 年 12 月成立于上海张江、由年轻跑者自发组织的
 
 1. [完整视觉设计方案 · 18 页 PDF](visual/LapLab-电光训练-完整视觉方案.pdf)：整体视觉和应用一览。
 2. [最新双语配乐快闪 · 18 秒 MP4](videos/LapLab-电光训练-双语配乐快闪.mp4)：9:16 小红书竖版，已加入主题曲。
-3. [四首主题曲及歌词入口](music/README.md)：保留原始 WAV，不用预览压缩版替代。
+3. [主题曲及场景选曲入口](music/README.md)：保留原始 WAV／M4A，按场景选择歌曲版本。
 4. [完整离线包](https://github.com/joannahe/laplab-running-club-visual-identity/releases/latest)：供直接发给跑团团长。解压后打开 `开始阅读.html`，无需安装软件即可浏览资料、试听和播放视频；浏览器不支持的文件可用本机播放器打开。
 5. 想继续设计或交给 Agent：[AGENTS.md](AGENTS.md)、[品牌规范](docs/BRAND.md)、[社媒规范](docs/SOCIAL.md)、[视频延展指南](docs/VIDEO.md)。
 
@@ -229,7 +229,10 @@ npm run package:offline
 ## 新版品牌片头片尾
 [绿色闪电片头](videos/LapLab-绿色闪电-独立片头.mp4) · [跑团标识与口号片尾](videos/LapLab-跑团标识与口号-独立片尾.mp4) · [帽背版透明 Logo](public/logo/laplab-cap-running-club.png) · [SVG](public/logo/laplab-cap-running-club.svg)。两段无声，配乐在整片统一添加；可编辑源码见 `src/BrandBumpers.tsx`。
 
+## 按场景选择视频音乐
+
+音乐库包含日常 LSD、间歇速度训练、马拉松助威与庆祝的歌曲版本，保留 WAV 和 M4A。请先阅读 [音乐场景说明](music/README.md)；Agent 可读取 [结构化选曲档案](music/catalog.json)，按视频主题推荐歌曲。BPM 区分生成目标与实测，不能直接用目标值代替卡点分析。
+
 ## 维护者
 
 维护者：[Jingke He / joannahe](https://github.com/joannahe)
-

@@ -25,7 +25,7 @@
 - 品牌变量在 src/brand.ts；当前时间轴、音乐和叠字在 src/PortraitFilm.tsx。
 - 每个可单独编辑的镜头保留独立 JSX 节点；时间使用 useVideoConfig().fps 转换。
 - 动画由 useCurrentFrame 和 interpolate 驱动，不用实时计时器、CSS animation/transition。
-- 视频背景音乐优先使用 public/music/ 内提供的歌曲，清单见 music/README.md；用户明确指定曲目时遵从用户选择，未指定时从仓库歌曲选取适合片段。
+- 视频背景音乐优先使用 public/music/ 内提供的歌曲，先读 music/README.md 和 music/catalog.json，按场景推荐并区分目标 BPM 与实测 BPM；清单见 music/README.md；用户明确指定曲目时遵从用户选择，未指定时从仓库歌曲选取适合片段。
 - 修改音乐位置使用 musicStartSeconds；不要擅自改变音高、倍速或以其他歌曲替换用户原曲。
 - 使用 @remotion/media 和 @remotion/fonts；保留依赖锁文件。
 - 不覆盖原始歌曲、照片和标识；派生物放 out/，验收后再更新 videos/。
@@ -33,7 +33,7 @@
 ## 交付检查
 视频修改运行 npm run assets:check、npm run typecheck，渲染新版本并抽查开头、结尾、所有双语叠字场景和新增照片。静态物料按对应技能检查实际导出物；仅改文档不必渲染视频。
 视频检查脸部避让、字号、字体加载、英文换行、透明底、颜色、画布比例、帧数、音轨、淡入淡出。完整解码一次，防止损坏文件。
-每次改变约定同步修改中文规范。离线包必须包含本项目所有物料、照片、四首 WAV、歌词、样片与源码，但排除 node_modules、.git、缓存与凭据。
+每次改变约定同步修改中文规范。离线包必须包含本项目所有物料、照片、所有原始音乐（包括 WAV、M4A）、歌词、样片与源码，但排除 node_modules、.git、缓存与凭据。
 
 ## 发布与许可
 代码与技术说明按 PolyForm Noncommercial 1.0.0 提供，不能改成 MIT 或声称可自由商用。媒体、Logo、歌词、视觉设计与成片另见 MEDIA-LICENSE.md。依赖和 OFL 字体遵循各自许可。

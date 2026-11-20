@@ -193,8 +193,8 @@
     },
     {
       "path": "music/README.md",
-      "bytes": 1584,
-      "sha256": "7fb7285c4589d91887731c00c00d58b320e8c144d1e1b83c2d882676fe07c670"
+      "bytes": 6983,
+      "sha256": "c88ab50b6af53d7db0ad72ad5f333719f8273a439bdc77cf3aaadc1cb15e5a06"
     },
     {
       "path": "music/lyrics/One-More-Lap-英文歌词.txt",
@@ -395,6 +395,111 @@
       "path": "visual/方案封面.jpg",
       "bytes": 39839,
       "sha256": "7755d301fc84a79f9b59748b227a662f712a25ca35f5a1af48158894dd994c6f"
+    },
+    {
+      "path": "public/music/Easy Miles, Easy Smiles-melodic electronica.wav",
+      "bytes": 44972548,
+      "sha256": "7df6763e777d32303a0bc7fb537c492418cd4e47725c0f0f615d4fe3be68ac00"
+    },
+    {
+      "path": "public/music/Make Fast Feel Easy-Explosive electronic alternative rock.wav",
+      "bytes": 32246788,
+      "sha256": "3ef7af2e3fdb900c0bba285f4920e0bdde8933efdcf841789963312e53676281"
+    },
+    {
+      "path": "public/music/Make Fast Feel Easy-Dancefloor.wav",
+      "bytes": 34174468,
+      "sha256": "75f0e63273793a96e6aa82bc358b1bf5542a9bcccc4a691b00d26ac8af4224bc"
+    },
+    {
+      "path": "public/music/Make Fast Feel Easy-Dancefloor.m4a",
+      "bytes": 2835227,
+      "sha256": "b822bfb30b998d335075e0ee75b7b2ec7d1abcb78d0be3ab27f961aeea077736"
+    },
+    {
+      "path": "public/music/Easy Miles, Easy Smiles-melodic electronica.m4a",
+      "bytes": 3837867,
+      "sha256": "491840a3e85c587b951703e1fadf7197bbef831b113a03570f3c5f9952dc36ac"
+    },
+    {
+      "path": "public/music/Make Fast Feel Easy-Explosive electronic alternative rock.m4a",
+      "bytes": 2680301,
+      "sha256": "36159c6a2e3a8772968f09a4216e4bab55657fec1ccd77f22a69b9790442ab26"
+    },
+    {
+      "path": "public/music/Easy Miles, Easy Smiles-Warm Melodic Electronica.m4a",
+      "bytes": 3739162,
+      "sha256": "f2c8040c2becc58c0a1713c6c8c11f408d6c4df5b6e371b1254dfa789012d3be"
+    },
+    {
+      "path": "public/music/This Is Your Day.m4a",
+      "bytes": 4047985,
+      "sha256": "4991ef8dcf08536d089c43696fa43cfdc448ff865481278c622828d70c856b52"
+    },
+    {
+      "path": "public/music/This Is Your Day.wav",
+      "bytes": 46070788,
+      "sha256": "fe7775a5bc434c4f6eb55758eb36d68e2c199f79fb28f9eb682e12189aab4fe9"
+    },
+    {
+      "path": "public/music/Easy Miles, Easy Smiles-Warm Melodic Electronica.wav",
+      "bytes": 42146298,
+      "sha256": "1455821b02cd2be6d703a08d4e2803379d0cbc8c0ca080f4a8737ae0154fb287"
+    },
+    {
+      "path": "music/catalog.json",
+      "bytes": 18686,
+      "sha256": "0aee3c1a8f3f69636d6ce9bf9c65567142a17d36640dfa70459897bc1ffd5908"
+    },
+    {
+      "path": "music/lyrics/make-fast-rock-英文歌词.txt",
+      "bytes": 1418,
+      "sha256": "3a79c632ffbf2ad7f8c4679cd8ba0126b9cb53b09c9e1a98ef42b61e1fdf01d2"
+    },
+    {
+      "path": "music/lyrics/make-fast-dancefloor-英文歌词.txt",
+      "bytes": 1418,
+      "sha256": "3a79c632ffbf2ad7f8c4679cd8ba0126b9cb53b09c9e1a98ef42b61e1fdf01d2"
+    },
+    {
+      "path": "music/lyrics/This-Is-Your-Day-英文歌词.txt",
+      "bytes": 2139,
+      "sha256": "bf63309c419fc31e3231bd43bd2102aca0ac262a1c69765bf2dfb9df17e82103"
+    },
+    {
+      "path": "music/lyrics/easy-miles-warm-英文歌词.txt",
+      "bytes": 1317,
+      "sha256": "05bf4def377add1d38d8f401a22fc919c1214a1872047cbf8f4f98f7f227c4b9"
+    },
+    {
+      "path": "music/lyrics/easy-miles-melodic-英文歌词.txt",
+      "bytes": 1317,
+      "sha256": "05bf4def377add1d38d8f401a22fc919c1214a1872047cbf8f4f98f7f227c4b9"
+    },
+    {
+      "path": "music/prompts/easy-miles-melodic.txt",
+      "bytes": 698,
+      "sha256": "62a4878420e3ef4a64efda214d5dc8efa08a7b46a4cf3b59af4fa34aa8f34931"
+    },
+    {
+      "path": "music/prompts/make-fast-rock.txt",
+      "bytes": 582,
+      "sha256": "e313662cfec2c5faa828ab8990fd2fc86f6ec12f3598fa7e68c36174b18bdfad"
+    },
+    {
+      "path": "music/prompts/make-fast-dancefloor.txt",
+      "bytes": 589,
+      "sha256": "45a22601ff36de944d5092a2b20c80a546ce12b64db0685096b1a161c0c82679"
+    },
+    {
+      "path": "music/prompts/This-Is-Your-Day-Progressive-House.txt",
+      "bytes": 625,
+      "sha256": "0b4d8a9a50f6ce2350144ce1ee11597d2e2dde19845922b0a17c80637a9f6948"
+    },
+    {
+      "path": "music/prompts/easy-miles-warm.txt",
+      "bytes": 698,
+      "sha256": "62a4878420e3ef4a64efda214d5dc8efa08a7b46a4cf3b59af4fa34aa8f34931"
     }
   ]
 }
