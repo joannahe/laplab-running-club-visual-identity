@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "scope": "全部 9 个歌曲版本；同版本不同格式归组。四首历史曲目风格与 BPM 待核实，新增五版记录生成目标。",
+  "scope": "全部 9 个歌曲版本；风格已由用户确认，BPM 均为提示词信息、未实测。",
   "tracks": [
     {
       "id": "this-is-your-day",
@@ -307,24 +307,33 @@
       ],
       "generator": "Suno",
       "source": "用户此前提供；音频元数据记录 made with suno",
-      "style": [],
-      "style_status": "待核实",
-      "style_source": "原文件没有风格标签，无法确认历史提示词与具体成品的对应关系。",
+      "style": [
+        "Electric Session",
+        "Melodic electro-pop",
+        "Indie dance"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户提供并确认 Electric Session 提示词",
       "bpm": {
         "prompt_target": null,
+        "prompt_options": [
+          82,
+          90
+        ],
         "measured": null,
-        "note": "待核实。仓库有 82 BPM 迷幻电子提示词，但未确认对应哪首原曲，不套用。"
+        "note": "用户提供的提示词含慢跑 82／节奏跑 90 两个候选，未指定本曲采用哪一个，不视为实测。"
       },
       "best_use_cases": [
         "跑团品牌介绍",
         "日常活动回顾"
       ],
-      "recommendation_status": "暂定用途；除现有样片已使用的曲目外，建议基于主题定位，选择前须试听。",
-      "lyrics_file": null,
-      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
-      "style_prompt_file": null,
+      "recommendation_status": "依据用户确认风格与歌词推荐；具体片段需试听。",
+      "lyrics_file": "music/lyrics/One-More-Lap-英文歌词.txt",
+      "lyrics_status": "用户确认创作歌词对应；不是同步字幕，实际演唱需对齐。",
+      "style_prompt_file": "music/prompts/Electric-Session-用户确认.txt",
       "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
-      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。"
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
+      "language_note": "用户确认歌词为英文；提示词原文写 Mandarin lead vocal，原样保留，不据此断言成品语言。"
     },
     {
       "id": "laplab-set-out",
@@ -343,33 +352,41 @@
       ],
       "generator": "Suno",
       "source": "用户此前提供；音频元数据记录 made with suno",
-      "style": [],
-      "style_status": "待核实",
-      "style_source": "原文件没有风格标签，无法确认历史提示词与具体成品的对应关系。",
+      "style": [
+        "Electric Session",
+        "Melodic electro-pop",
+        "Indie dance"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户提供并确认 Electric Session 提示词",
       "bpm": {
         "prompt_target": null,
+        "prompt_options": [
+          82,
+          90
+        ],
         "measured": null,
-        "note": "待核实。仓库有 82 BPM 迷幻电子提示词，但未确认对应哪首原曲，不套用。"
+        "note": "用户提供的提示词含慢跑 82／节奏跑 90 两个候选，未指定本曲采用哪一个，不视为实测。"
       },
       "best_use_cases": [
         "跑团招募",
         "集体出发",
         "跑友相处回顾"
       ],
-      "recommendation_status": "暂定用途；除现有样片已使用的曲目外，建议基于主题定位，选择前须试听。",
-      "lyrics_file": null,
-      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
-      "style_prompt_file": null,
+      "recommendation_status": "依据用户确认风格与歌词推荐；具体片段需试听。",
+      "lyrics_file": "music/lyrics/一起刷圈-中文歌词.txt",
+      "lyrics_status": "用户确认创作歌词对应；不是同步字幕，实际演唱需对齐。",
+      "style_prompt_file": "music/prompts/Electric-Session-用户确认.txt",
       "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
       "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。"
     },
     {
       "id": "serious-training-original",
-      "title": "Serious Training, Easy Company",
-      "file": "public/music/Serious Training, Easy Company.wav",
+      "title": "Serious Training, Easy Company-Psychedelic Downtempo-V1",
+      "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
       "assets": [
         {
-          "file": "public/music/Serious Training, Easy Company.wav",
+          "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
           "format": "wav",
           "duration_seconds": 216.0,
           "sample_rate": 48000,
@@ -407,15 +424,16 @@
         "source_start_seconds": 0,
         "source_end_seconds": 18,
         "note": "已确认现有竖版样片使用开头 18 秒；不是实测风格或 BPM 的证据。"
-      }
+      },
+      "original_filename": "Serious Training, Easy Company.wav"
     },
     {
       "id": "serious-training-alternate",
-      "title": "Serious Training, Easy Company (1)",
-      "file": "public/music/Serious Training, Easy Company (1).wav",
+      "title": "Serious Training, Easy Company-Psychedelic Downtempo-V2",
+      "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
       "assets": [
         {
-          "file": "public/music/Serious Training, Easy Company (1).wav",
+          "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
           "format": "wav",
           "duration_seconds": 228.56,
           "sample_rate": 48000,
@@ -447,7 +465,8 @@
       "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
       "style_prompt_file": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
       "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
-      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。"
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
+      "original_filename": "Serious Training, Easy Company (1).wav"
     }
   ],
   "updated_on": "2026-11-20"

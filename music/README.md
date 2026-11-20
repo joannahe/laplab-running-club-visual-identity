@@ -6,8 +6,8 @@
 |---|---|---|
 | [LapLab 和你一起出发.wav](../public/music/LapLab%20和你一起出发.wav) | 2:53 | 48000 Hz / 2 声道 |
 | [LapLab.wav](../public/music/LapLab.wav) | 2:29 | 48000 Hz / 2 声道 |
-| [Serious Training, Easy Company (1).wav](../public/music/Serious%20Training,%20Easy%20Company%20(1).wav) | 3:48 | 48000 Hz / 2 声道 |
-| [Serious Training, Easy Company.wav](../public/music/Serious%20Training,%20Easy%20Company.wav) | 3:36 | 48000 Hz / 2 声道 |
+| [Serious Training, Easy Company-Psychedelic Downtempo-V2.wav](../public/music/Serious%20Training,%20Easy%20Company-Psychedelic%20Downtempo-V2.wav) | 3:48 | 48000 Hz / 2 声道 |
+| [Serious Training, Easy Company-Psychedelic Downtempo-V1.wav](../public/music/Serious%20Training,%20Easy%20Company-Psychedelic%20Downtempo-V1.wav) | 3:36 | 48000 Hz / 2 声道 |
 
 当前视频配乐使用第一首不带 `(1)` 的英文同名歌曲，截取开头 18 秒。其余版本保留供跑团比较选择。
 
@@ -78,3 +78,7 @@
 以上场景为主题层面的暂定推荐，未声称已完成听辨。每首已在 catalog.json 独立记录原文件、精确时长、编码、校验值、已知使用情况及未确认项。两首同名英文歌曲是不同成品，不合并。
 
 原文件不含风格、BPM 或完整歌词标签。用户已确认两首 Serious Training, Easy Company 使用迷幻电子慢跑风格，关联历史 82 BPM 提示词；82 为提示词目标，非实测。LapLab 和 LapLab 和你一起出发 的风格与 BPM 仍待确认。Agent 应先试听；未知字段保持 null 或空列表，不猜测。旧创作歌词只能作为参考，制作字幕前需按音轨核对。
+
+## 历史曲目最终确认（2026-11-20）
+
+LapLab 与 LapLab 和你一起出发 均为用户确认的 Electric Session（melodic electro-pop / indie dance），分别关联 One More Lap 英文稿、以“张江的灯，刚刚亮起”开头的中文稿。提示词提供 82／90 BPM 两种选择，具体成品目标未指定，实测值未知。两首英文同名歌使用迷幻电子慢跑风格，文件添加 Psychedelic Downtempo-V1/V2 后缀，只改文件名，原始音频不变；catalog.json 保留旧文件名。以上确认优先于前面早期“待核实”记录。

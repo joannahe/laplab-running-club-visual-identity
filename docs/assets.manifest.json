@@ -193,8 +193,8 @@
     },
     {
       "path": "music/README.md",
-      "bytes": 6983,
-      "sha256": "c88ab50b6af53d7db0ad72ad5f333719f8273a439bdc77cf3aaadc1cb15e5a06"
+      "bytes": 7661,
+      "sha256": "fe348e315bdba021f4028e13984a3323312304f21d9fca79fc7d016e54f8f40d"
     },
     {
       "path": "music/lyrics/One-More-Lap-英文歌词.txt",
@@ -347,12 +347,12 @@
       "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
     },
     {
-      "path": "public/music/Serious Training, Easy Company (1).wav",
+      "path": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
       "bytes": 43897348,
       "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
     },
     {
-      "path": "public/music/Serious Training, Easy Company.wav",
+      "path": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
       "bytes": 41485828,
       "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
     },
@@ -448,8 +448,8 @@
     },
     {
       "path": "music/catalog.json",
-      "bytes": 18686,
-      "sha256": "0aee3c1a8f3f69636d6ce9bf9c65567142a17d36640dfa70459897bc1ffd5908"
+      "bytes": 19415,
+      "sha256": "0cfa46f8cd6cf3cd719a871a03dfa4acb6df1da0e1e656de75ae42a0ca5f6d92"
     },
     {
       "path": "music/lyrics/make-fast-rock-英文歌词.txt",
@@ -500,6 +500,11 @@
       "path": "music/prompts/easy-miles-warm.txt",
       "bytes": 698,
       "sha256": "62a4878420e3ef4a64efda214d5dc8efa08a7b46a4cf3b59af4fa34aa8f34931"
+    },
+    {
+      "path": "music/prompts/Electric-Session-用户确认.txt",
+      "bytes": 574,
+      "sha256": "4c979bd51b28f9553b83ff40770a6189e39a8f0cc6afde3a4fb4c2fd250d51a9"
     }
   ]
 }

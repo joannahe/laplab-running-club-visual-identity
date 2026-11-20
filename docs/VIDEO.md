@@ -30,7 +30,7 @@
 选曲先查 [场景音乐档案](../music/catalog.json) 与 [音乐说明](../music/README.md)。马拉松、冲 PB、冲线与赛后庆祝优先推荐用户认可的 This Is Your Day；130 BPM 仅为生成目标，逐拍剪辑前须分析成品。
 
 ### 当前样片的配乐设置
-`public/music/Serious Training, Easy Company.wav`：用户提供，曲名 Serious Training, Easy Company，用户说明由 Suno 生成。源文件 216 秒、48 kHz、立体声。保留原文件，不更改音高和速度。
+`public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav`：用户提供，曲名 Serious Training, Easy Company，用户说明由 Suno 生成。源文件 216 秒、48 kHz、立体声。保留原文件，不更改音高和速度。
 本版连续采用源音频 0–18 秒，音量系数最高 0.85，0–0.3 秒淡入，16.8–18 秒淡出。该段是短片音乐摘录，不是完整主题曲或歌词字幕版本。
 在 Studio 的 composition props 设置 `musicStartSeconds`，可更换音乐摘录；推荐范围 0–198 秒。修改后检查进入点、尾句截断、响度和收尾。示例：
 
