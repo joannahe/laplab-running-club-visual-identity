@@ -193,8 +193,8 @@
     },
     {
       "path": "music/README.md",
-      "bytes": 7661,
-      "sha256": "fe348e315bdba021f4028e13984a3323312304f21d9fca79fc7d016e54f8f40d"
+      "bytes": 7686,
+      "sha256": "fc1424492e1a358fd7bed56093ae64cc2c806af04e9fa72e63435ef2e525cbbd"
     },
     {
       "path": "music/lyrics/One-More-Lap-英文歌词.txt",
@@ -347,12 +347,12 @@
       "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
     },
     {
-      "path": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
+      "path": "public/music/Serious Training, Easy Company-Afterglow.wav",
       "bytes": 43897348,
       "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
     },
     {
-      "path": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
+      "path": "public/music/Serious Training, Easy Company-Night Run.wav",
       "bytes": 41485828,
       "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
     },
@@ -448,8 +448,8 @@
     },
     {
       "path": "music/catalog.json",
-      "bytes": 19415,
-      "sha256": "0cfa46f8cd6cf3cd719a871a03dfa4acb6df1da0e1e656de75ae42a0ca5f6d92"
+      "bytes": 19325,
+      "sha256": "ccd2e51085c1f54da89c5ec1496d7d97b6ed2748cb9e4313831456c99f70f75f"
     },
     {
       "path": "music/lyrics/make-fast-rock-英文歌词.txt",
@@ -505,6 +505,11 @@
       "path": "music/prompts/Electric-Session-用户确认.txt",
       "bytes": 574,
       "sha256": "4c979bd51b28f9553b83ff40770a6189e39a8f0cc6afde3a4fb4c2fd250d51a9"
+    },
+    {
+      "path": "music/lyrics/README.md",
+      "bytes": 1119,
+      "sha256": "9387e9aaccf9fd35ef2faae9391030abe9ba352fcbbb5f3bf5da5bfa0f7a1505"
     }
   ]
 }

@@ -382,11 +382,11 @@
     },
     {
       "id": "serious-training-original",
-      "title": "Serious Training, Easy Company-Psychedelic Downtempo-V1",
-      "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
+      "title": "Serious Training, Easy Company-Night Run",
+      "file": "public/music/Serious Training, Easy Company-Night Run.wav",
       "assets": [
         {
-          "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V1.wav",
+          "file": "public/music/Serious Training, Easy Company-Night Run.wav",
           "format": "wav",
           "duration_seconds": 216.0,
           "sample_rate": 48000,
@@ -429,11 +429,11 @@
     },
     {
       "id": "serious-training-alternate",
-      "title": "Serious Training, Easy Company-Psychedelic Downtempo-V2",
-      "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
+      "title": "Serious Training, Easy Company-Afterglow",
+      "file": "public/music/Serious Training, Easy Company-Afterglow.wav",
       "assets": [
         {
-          "file": "public/music/Serious Training, Easy Company-Psychedelic Downtempo-V2.wav",
+          "file": "public/music/Serious Training, Easy Company-Afterglow.wav",
           "format": "wav",
           "duration_seconds": 228.56,
           "sample_rate": 48000,
