@@ -193,8 +193,8 @@
     },
     {
       "path": "music/README.md",
-      "bytes": 8053,
-      "sha256": "6739b8f93fb4befb3b3ce073e9021fac01d6c9ca01ae4bf858ea2831cee1bd2c"
+      "bytes": 7372,
+      "sha256": "8abdee04d815ca8a08cb560a84cb74d68a76b886888cbd9ee56898a03475c481"
     },
     {
       "path": "music/lyrics/One-More-Lap-英文歌词.txt",
@@ -508,8 +508,8 @@
     },
     {
       "path": "music/lyrics/README.md",
-      "bytes": 1401,
-      "sha256": "beca8439c68f2449656ced56f65df7df8be0695d6da59fb9cb0d52c7bbfb89d0"
+      "bytes": 1807,
+      "sha256": "3381d989b9d01567b1a45f26235843774fcd0f840d8fc531a670e819d48217b2"
     }
   ]
 }
