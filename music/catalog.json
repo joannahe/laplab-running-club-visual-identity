@@ -1,0 +1,473 @@
+{
+  "schema_version": 2,
+  "scope": "全部 9 个歌曲版本；风格已由用户确认，BPM 均为提示词信息、未实测。",
+  "tracks": [
+    {
+      "id": "this-is-your-day",
+      "title": "This Is Your Day",
+      "file": "public/music/This Is Your Day.wav",
+      "user_approved": true,
+      "generator": "Suno",
+      "language": "en",
+      "style": [
+        "Progressive House",
+        "Euphoric progressive house running anthem",
+        "European festival production"
+      ],
+      "style_source": "用户确认使用此前 D 风格提示词",
+      "bpm": {
+        "prompt_target": 130,
+        "measured": null,
+        "note": "130 是生成目标，未实测；逐拍剪辑前分析所选片段，不将音乐 BPM 等同跑步步频"
+      },
+      "audio_duration_seconds": 239.88,
+      "container_duration_seconds": 240.716,
+      "codec": "opus",
+      "sample_rate": 48000,
+      "channels": 2,
+      "best_use_cases": [
+        "马拉松赛前动员",
+        "比赛日故事",
+        "冲击个人最好成绩 PB",
+        "冲线高光",
+        "跑友助威",
+        "赛后庆祝与成绩回顾"
+      ],
+      "secondary_use_cases": [
+        "长距离训练成果回顾"
+      ],
+      "not_first_choice": [
+        "需要紧密高频鼓点的间歇训练快闪",
+        "轻松聊天类日常记录"
+      ],
+      "mood": [
+        "振奋",
+        "希望",
+        "坚定",
+        "集体支持",
+        "庆祝"
+      ],
+      "lyric_hook": "Run, refine, repeat",
+      "lyrics_file": "music/lyrics/This-Is-Your-Day-英文歌词.txt",
+      "style_prompt_file": "music/prompts/This-Is-Your-Day-Progressive-House.txt",
+      "suggested_editing": "赛前准备用较平缓段，冲线与庆祝配副歌；尚未标注具体时间码，应先试听和对齐。人声段避免叠加密集解说。",
+      "technical_note": "m4a 容器内为 Opus，非 AAC；如渲染器不兼容，创建 AAC/WAV 派生文件，保留原始文件。内嵌歌词和字幕不能未经核对直接作为最终字幕。",
+      "sha256": "4991ef8dcf08536d089c43696fa43cfdc448ff865481278c622828d70c856b52",
+      "assets": [
+        {
+          "file": "public/music/This Is Your Day.wav",
+          "format": "wav",
+          "codec": "pcm_s16le",
+          "duration_seconds": 239.88,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "fe7775a5bc434c4f6eb55758eb36d68e2c199f79fb28f9eb682e12189aab4fe9"
+        },
+        {
+          "file": "public/music/This Is Your Day.m4a",
+          "format": "m4a",
+          "codec": "opus",
+          "duration_seconds": 239.88,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "4991ef8dcf08536d089c43696fa43cfdc448ff865481278c622828d70c856b52"
+        }
+      ]
+    },
+    {
+      "id": "easy-miles-melodic",
+      "title": "Easy Miles, Easy Smiles",
+      "version": "Melodic Electronica",
+      "file": "public/music/Easy Miles, Easy Smiles-melodic electronica.wav",
+      "assets": [
+        {
+          "file": "public/music/Easy Miles, Easy Smiles-melodic electronica.wav",
+          "format": "wav",
+          "codec": "pcm_s16le",
+          "duration_seconds": 234.16,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "7df6763e777d32303a0bc7fb537c492418cd4e47725c0f0f615d4fe3be68ac00"
+        },
+        {
+          "file": "public/music/Easy Miles, Easy Smiles-melodic electronica.m4a",
+          "format": "m4a",
+          "codec": "opus",
+          "duration_seconds": 234.16,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "491840a3e85c587b951703e1fadf7197bbef831b113a03570f3c5f9952dc36ac"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户提供，并确认基于对话歌词与推荐风格生成",
+      "language": "en",
+      "style": [
+        "Melodic Electronica"
+      ],
+      "style_source": "用户确认＋文件版本名；未逐段听辨。风格提示词为对话推荐稿，未核对 Suno 实际粘贴内容。",
+      "bpm": {
+        "prompt_target": 112,
+        "measured": null,
+        "note": "推荐生成目标，非音轨实测；不可直接据此声称精确卡点或跑步步频。"
+      },
+      "best_use_cases": [
+        "日常 LSD 长距离慢跑",
+        "轻松跑",
+        "跑友日常与城市探索"
+      ],
+      "mood": [
+        "温暖",
+        "放松",
+        "陪伴"
+      ],
+      "lyrics_file": "music/lyrics/easy-miles-melodic-英文歌词.txt",
+      "lyrics_source": "M4A 内嵌歌词；字幕制作前需核对实际演唱与时间码。",
+      "style_prompt_file": "music/prompts/easy-miles-melodic.txt",
+      "suggested_editing": "轻松节奏、连续镜头、聊天与风景，副歌配跑友群像。",
+      "selection_note": "两个同名版本均保留，未认定哪个更优，试听后按片段选择。",
+      "technical_note": "优先 WAV 剪辑；M4A 为 Opus 编码，兼容性需检查。保留原曲，不擅自改速改调。"
+    },
+    {
+      "id": "easy-miles-warm",
+      "title": "Easy Miles, Easy Smiles",
+      "version": "Warm Melodic Electronica",
+      "file": "public/music/Easy Miles, Easy Smiles-Warm Melodic Electronica.wav",
+      "assets": [
+        {
+          "file": "public/music/Easy Miles, Easy Smiles-Warm Melodic Electronica.wav",
+          "format": "wav",
+          "codec": "pcm_s16le",
+          "duration_seconds": 219.44,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "1455821b02cd2be6d703a08d4e2803379d0cbc8c0ca080f4a8737ae0154fb287"
+        },
+        {
+          "file": "public/music/Easy Miles, Easy Smiles-Warm Melodic Electronica.m4a",
+          "format": "m4a",
+          "codec": "opus",
+          "duration_seconds": 219.44,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "f2c8040c2becc58c0a1713c6c8c11f408d6c4df5b6e371b1254dfa789012d3be"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户提供，并确认基于对话歌词与推荐风格生成",
+      "language": "en",
+      "style": [
+        "Warm Melodic Electronica"
+      ],
+      "style_source": "用户确认＋文件版本名；未逐段听辨。风格提示词为对话推荐稿，未核对 Suno 实际粘贴内容。",
+      "bpm": {
+        "prompt_target": 112,
+        "measured": null,
+        "note": "推荐生成目标，非音轨实测；不可直接据此声称精确卡点或跑步步频。"
+      },
+      "best_use_cases": [
+        "日常 LSD 长距离慢跑",
+        "恢复跑",
+        "跑团社交与合照回顾"
+      ],
+      "mood": [
+        "温暖",
+        "轻松",
+        "归属感"
+      ],
+      "lyrics_file": "music/lyrics/easy-miles-warm-英文歌词.txt",
+      "lyrics_source": "M4A 内嵌歌词；字幕制作前需核对实际演唱与时间码。",
+      "style_prompt_file": "music/prompts/easy-miles-warm.txt",
+      "suggested_editing": "轻松节奏、连续镜头、聊天与风景，副歌配跑友群像。",
+      "selection_note": "两个同名版本均保留，未认定哪个更优，试听后按片段选择。",
+      "technical_note": "优先 WAV 剪辑；M4A 为 Opus 编码，兼容性需检查。保留原曲，不擅自改速改调。"
+    },
+    {
+      "id": "make-fast-dancefloor",
+      "title": "Make Fast Feel Easy",
+      "version": "Dancefloor Drum & Bass",
+      "file": "public/music/Make Fast Feel Easy-Dancefloor.wav",
+      "assets": [
+        {
+          "file": "public/music/Make Fast Feel Easy-Dancefloor.wav",
+          "format": "wav",
+          "codec": "pcm_s16le",
+          "duration_seconds": 177.92,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "75f0e63273793a96e6aa82bc358b1bf5542a9bcccc4a691b00d26ac8af4224bc"
+        },
+        {
+          "file": "public/music/Make Fast Feel Easy-Dancefloor.m4a",
+          "format": "m4a",
+          "codec": "opus",
+          "duration_seconds": 177.92,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "b822bfb30b998d335075e0ee75b7b2ec7d1abcb78d0be3ab27f961aeea077736"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户提供，并确认基于对话歌词与推荐风格生成",
+      "language": "en",
+      "style": [
+        "Dancefloor Drum & Bass"
+      ],
+      "style_source": "用户确认＋文件版本名；未逐段听辨。风格提示词为对话推荐稿，未核对 Suno 实际粘贴内容。",
+      "bpm": {
+        "prompt_target": 174,
+        "measured": null,
+        "note": "推荐生成目标，非音轨实测；不可直接据此声称精确卡点或跑步步频。"
+      },
+      "best_use_cases": [
+        "间歇训练",
+        "速度课",
+        "操场快闪与训练高光"
+      ],
+      "mood": [
+        "高能",
+        "推进",
+        "兴奋"
+      ],
+      "lyrics_file": "music/lyrics/make-fast-dancefloor-英文歌词.txt",
+      "lyrics_source": "M4A 内嵌歌词；字幕制作前需核对实际演唱与时间码。",
+      "style_prompt_file": "music/prompts/make-fast-dancefloor.txt",
+      "suggested_editing": "强节奏段配训练动作与切镜，恢复段适当放缓；避免白屏频闪。",
+      "selection_note": "两个同名版本均保留，未认定哪个更优，试听后按片段选择。",
+      "technical_note": "优先 WAV 剪辑；M4A 为 Opus 编码，兼容性需检查。保留原曲，不擅自改速改调。"
+    },
+    {
+      "id": "make-fast-rock",
+      "title": "Make Fast Feel Easy",
+      "version": "Explosive Electronic Alternative Rock",
+      "file": "public/music/Make Fast Feel Easy-Explosive electronic alternative rock.wav",
+      "assets": [
+        {
+          "file": "public/music/Make Fast Feel Easy-Explosive electronic alternative rock.wav",
+          "format": "wav",
+          "codec": "pcm_s16le",
+          "duration_seconds": 167.88,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "3ef7af2e3fdb900c0bba285f4920e0bdde8933efdcf841789963312e53676281"
+        },
+        {
+          "file": "public/music/Make Fast Feel Easy-Explosive electronic alternative rock.m4a",
+          "format": "m4a",
+          "codec": "opus",
+          "duration_seconds": 167.88,
+          "sample_rate": 48000,
+          "channels": 2,
+          "sha256": "36159c6a2e3a8772968f09a4216e4bab55657fec1ccd77f22a69b9790442ab26"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户提供，并确认基于对话歌词与推荐风格生成",
+      "language": "en",
+      "style": [
+        "Explosive Electronic Alternative Rock"
+      ],
+      "style_source": "用户确认＋文件版本名；未逐段听辨。风格提示词为对话推荐稿，未核对 Suno 实际粘贴内容。",
+      "bpm": {
+        "prompt_target": 156,
+        "measured": null,
+        "note": "推荐生成目标，非音轨实测；不可直接据此声称精确卡点或跑步步频。"
+      },
+      "best_use_cases": [
+        "间歇训练",
+        "速度训练集锦",
+        "团队助威与热血宣传"
+      ],
+      "mood": [
+        "力量",
+        "集体感",
+        "热血"
+      ],
+      "lyrics_file": "music/lyrics/make-fast-rock-英文歌词.txt",
+      "lyrics_source": "M4A 内嵌歌词；字幕制作前需核对实际演唱与时间码。",
+      "style_prompt_file": "music/prompts/make-fast-rock.txt",
+      "suggested_editing": "强节奏段配训练动作与切镜，恢复段适当放缓；避免白屏频闪。",
+      "selection_note": "两个同名版本均保留，未认定哪个更优，试听后按片段选择。",
+      "technical_note": "优先 WAV 剪辑；M4A 为 Opus 编码，兼容性需检查。保留原曲，不擅自改速改调。"
+    },
+    {
+      "id": "laplab-original",
+      "title": "LapLab",
+      "file": "public/music/LapLab.wav",
+      "assets": [
+        {
+          "file": "public/music/LapLab.wav",
+          "format": "wav",
+          "duration_seconds": 149.92,
+          "sample_rate": 48000,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "sha256": "b929fd85a74bd55fd18cd94da631989e349fe593dc04eef1e458afc55a50638f"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户此前提供；音频元数据记录 made with suno",
+      "style": [
+        "Electric Session",
+        "Melodic electro-pop",
+        "Indie dance"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户提供并确认 Electric Session 提示词",
+      "bpm": {
+        "prompt_target": null,
+        "prompt_options": [
+          82,
+          90
+        ],
+        "measured": null,
+        "note": "用户提供的提示词含慢跑 82／节奏跑 90 两个候选，未指定本曲采用哪一个，不视为实测。"
+      },
+      "best_use_cases": [
+        "跑团品牌介绍",
+        "日常活动回顾"
+      ],
+      "recommendation_status": "依据用户确认风格与歌词推荐；具体片段需试听。",
+      "lyrics_file": "music/lyrics/One-More-Lap-英文歌词.txt",
+      "lyrics_status": "用户确认创作歌词对应；不是同步字幕，实际演唱需对齐。",
+      "style_prompt_file": "music/prompts/Electric-Session-用户确认.txt",
+      "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
+      "language_note": "用户确认歌词为英文；提示词原文写 Mandarin lead vocal，原样保留，不据此断言成品语言。"
+    },
+    {
+      "id": "laplab-set-out",
+      "title": "LapLab 和你一起出发",
+      "file": "public/music/LapLab 和你一起出发.wav",
+      "assets": [
+        {
+          "file": "public/music/LapLab 和你一起出发.wav",
+          "format": "wav",
+          "duration_seconds": 173.04,
+          "sample_rate": 48000,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "sha256": "82123e3236e9d050390b2ced4ad4b0b2ad329517ea40983d29bc7c20707341a0"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户此前提供；音频元数据记录 made with suno",
+      "style": [
+        "Electric Session",
+        "Melodic electro-pop",
+        "Indie dance"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户提供并确认 Electric Session 提示词",
+      "bpm": {
+        "prompt_target": null,
+        "prompt_options": [
+          82,
+          90
+        ],
+        "measured": null,
+        "note": "用户提供的提示词含慢跑 82／节奏跑 90 两个候选，未指定本曲采用哪一个，不视为实测。"
+      },
+      "best_use_cases": [
+        "跑团招募",
+        "集体出发",
+        "跑友相处回顾"
+      ],
+      "recommendation_status": "依据用户确认风格与歌词推荐；具体片段需试听。",
+      "lyrics_file": "music/lyrics/一起刷圈-中文歌词.txt",
+      "lyrics_status": "用户确认创作歌词对应；不是同步字幕，实际演唱需对齐。",
+      "style_prompt_file": "music/prompts/Electric-Session-用户确认.txt",
+      "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。"
+    },
+    {
+      "id": "serious-training-original",
+      "title": "Serious Training, Easy Company-Night Run",
+      "file": "public/music/Serious Training, Easy Company-Night Run.wav",
+      "assets": [
+        {
+          "file": "public/music/Serious Training, Easy Company-Night Run.wav",
+          "format": "wav",
+          "duration_seconds": 216.0,
+          "sample_rate": 48000,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "sha256": "89592249a487322e97f19d1216f588888838463f9894e51b8baeec03baa50cef"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户此前提供；音频元数据记录 made with suno",
+      "style": [
+        "Warm psychedelic downtempo electronica"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户确认第 3、4 首使用迷幻电子慢跑风格；关联此前历史提示词。",
+      "bpm": {
+        "prompt_target": 82,
+        "measured": null,
+        "note": "82 来自此前迷幻电子慢跑提示词；成品未实测。"
+      },
+      "best_use_cases": [
+        "轻松慢跑",
+        "日常 LSD",
+        "夜跑氛围",
+        "跑团日常回顾"
+      ],
+      "recommendation_status": "风格已由用户确认；具体截取点仍需试听。",
+      "lyrics_file": null,
+      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
+      "style_prompt_file": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
+      "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
+      "known_usage": {
+        "composition": "LapLab-Xiaohongshu-Flash",
+        "source_start_seconds": 0,
+        "source_end_seconds": 18,
+        "note": "已确认现有竖版样片使用开头 18 秒；不是实测风格或 BPM 的证据。"
+      },
+      "original_filename": "Serious Training, Easy Company.wav"
+    },
+    {
+      "id": "serious-training-alternate",
+      "title": "Serious Training, Easy Company-Afterglow",
+      "file": "public/music/Serious Training, Easy Company-Afterglow.wav",
+      "assets": [
+        {
+          "file": "public/music/Serious Training, Easy Company-Afterglow.wav",
+          "format": "wav",
+          "duration_seconds": 228.56,
+          "sample_rate": 48000,
+          "channels": 2,
+          "codec": "pcm_s16le",
+          "sha256": "6f51a34ce6595ee702850e16e0e298e611fff47d1065ea90b3ced211fa31e4fb"
+        }
+      ],
+      "generator": "Suno",
+      "source": "用户此前提供；音频元数据记录 made with suno",
+      "style": [
+        "Warm psychedelic downtempo electronica"
+      ],
+      "style_status": "用户已确认",
+      "style_source": "2026-11-20 用户确认第 3、4 首使用迷幻电子慢跑风格；关联此前历史提示词。",
+      "bpm": {
+        "prompt_target": 82,
+        "measured": null,
+        "note": "82 来自此前迷幻电子慢跑提示词；成品未实测。"
+      },
+      "best_use_cases": [
+        "轻松慢跑",
+        "日常 LSD",
+        "夜跑氛围",
+        "跑团日常回顾"
+      ],
+      "recommendation_status": "风格已由用户确认；具体截取点仍需试听。",
+      "lyrics_file": null,
+      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
+      "style_prompt_file": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
+      "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
+      "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
+      "original_filename": "Serious Training, Easy Company (1).wav"
+    }
+  ],
+  "updated_on": "2026-11-20"
+}
