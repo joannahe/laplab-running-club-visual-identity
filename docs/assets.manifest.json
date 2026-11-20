@@ -193,8 +193,8 @@
     },
     {
       "path": "music/README.md",
-      "bytes": 7686,
-      "sha256": "fc1424492e1a358fd7bed56093ae64cc2c806af04e9fa72e63435ef2e525cbbd"
+      "bytes": 8053,
+      "sha256": "6739b8f93fb4befb3b3ce073e9021fac01d6c9ca01ae4bf858ea2831cee1bd2c"
     },
     {
       "path": "music/lyrics/One-More-Lap-英文歌词.txt",
@@ -448,8 +448,8 @@
     },
     {
       "path": "music/catalog.json",
-      "bytes": 19325,
-      "sha256": "ccd2e51085c1f54da89c5ec1496d7d97b6ed2748cb9e4313831456c99f70f75f"
+      "bytes": 19501,
+      "sha256": "87a53cb3650e990decb03e12e3cbc47dc4fa43980bd916fa70ede09cbd471637"
     },
     {
       "path": "music/lyrics/make-fast-rock-英文歌词.txt",
@@ -508,8 +508,8 @@
     },
     {
       "path": "music/lyrics/README.md",
-      "bytes": 1119,
-      "sha256": "9387e9aaccf9fd35ef2faae9391030abe9ba352fcbbb5f3bf5da5bfa0f7a1505"
+      "bytes": 1401,
+      "sha256": "beca8439c68f2449656ced56f65df7df8be0695d6da59fb9cb0d52c7bbfb89d0"
     }
   ]
 }

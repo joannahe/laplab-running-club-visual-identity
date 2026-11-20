@@ -414,8 +414,8 @@
         "跑团日常回顾"
       ],
       "recommendation_status": "风格已由用户确认；具体截取点仍需试听。",
-      "lyrics_file": null,
-      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
+      "lyrics_file": "music/lyrics/One-More-Lap-英文歌词.txt",
+      "lyrics_status": "2026-11-20 用户确认 Night Run 与 Afterglow 均使用以 One more lap / Here we go 开头的同一英文创作歌词；非听写校准字幕。",
       "style_prompt_file": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
       "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
       "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",
@@ -461,8 +461,8 @@
         "跑团日常回顾"
       ],
       "recommendation_status": "风格已由用户确认；具体截取点仍需试听。",
-      "lyrics_file": null,
-      "lyrics_status": "未获逐曲确认歌词；仓库旧中英文歌词为创作原稿，不视为该曲逐字转写。",
+      "lyrics_file": "music/lyrics/One-More-Lap-英文歌词.txt",
+      "lyrics_status": "2026-11-20 用户确认 Night Run 与 Afterglow 均使用以 One more lap / Here we go 开头的同一英文创作歌词；非听写校准字幕。",
       "style_prompt_file": "music/prompts/迷幻电子-慢跑-英文提示词.txt",
       "suggested_editing": "先试听确认情绪、节奏和人声内容，再选片段；不要臆造高潮时间码。",
       "technical_note": "原始 WAV，48 kHz 双声道；保留原速原调。",

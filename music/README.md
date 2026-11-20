@@ -82,3 +82,7 @@
 ## 历史曲目最终确认（2026-11-20）
 
 LapLab 与 LapLab 和你一起出发 均为用户确认的 Electric Session（melodic electro-pop / indie dance），分别关联 One More Lap 英文稿、以“张江的灯，刚刚亮起”开头的中文稿。提示词提供 82／90 BPM 两种选择，具体成品目标未指定，实测值未知。两首英文同名歌使用迷幻电子慢跑风格，文件添加 Night Run/V2 后缀，只改文件名，原始音频不变；catalog.json 保留旧文件名。以上确认优先于前面早期“待核实”记录。
+
+### Serious Training, Easy Company 歌词对应
+
+用户于 2026-11-20 确认：Night Run 和 Afterglow 两版均使用 [One More Lap 英文歌词](lyrics/One-More-Lap-英文歌词.txt)，开头为 “One more lap / Here we go”，与 LapLab.wav 共用创作稿。已更新各自 catalog.json 的 lyrics_file；实际演唱与字幕时间码仍需按版本核对。

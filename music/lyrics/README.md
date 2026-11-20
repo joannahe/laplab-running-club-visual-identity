@@ -12,6 +12,9 @@
 ## 用户确认的历史创作稿
 - LapLab.wav 对应 [One More Lap 英文歌词](One-More-Lap-英文歌词.txt)。
 - LapLab 和你一起出发.wav 对应 [一起刷圈中文歌词](一起刷圈-中文歌词.txt)，开头为“张江的灯，刚刚亮起”。
-- Night Run 与 Afterglow 已确认迷幻电子慢跑风格，未另行提供逐曲成品歌词，不把其他原稿自动当作逐字转写。
+- [Serious Training, Easy Company — Night Run](One-More-Lap-英文歌词.txt)：用户确认使用同一份英文歌词。
+- [Serious Training, Easy Company — Afterglow](One-More-Lap-英文歌词.txt)：用户确认使用同一份英文歌词。
+
+这两版与 LapLab.wav 共用以 “One more lap / Here we go” 开头的英文创作稿；实际演唱可能有重复或段落差异，字幕仍需按对应音轨对齐。
 
 歌词遵循项目媒体许可；场景与风格见 ../README.md，音频对应关系见 ../catalog.json。
